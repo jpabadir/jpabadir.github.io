@@ -31,5 +31,7 @@ jobs:
       - run: git pull
       - run: git checkout gh-pages
       - run: git pull
+      - run: mv -v build/* .
+      - run: rm -rf build/
       - run: git commit -m "Automatic commit by CI pipeline"
-      - run: git push 
+      - run: git push
