@@ -26,8 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: git add build
-      - run: git config user.name "GitHub Actions Bot"
-      - run: git config user.email "<>"
+      - run: git config user.name "jpabadir"
+      - run: git config user.email jpabadir@gmail.com"
       - run: git pull
       - run: git checkout gh-pages
       - run: git pull
