@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import me from './assets/picofme.jpeg';
 import './App.css';
 
