@@ -28,6 +28,7 @@ jobs:
       - run: git add build
       - run: git config user.name "GitHub Actions Bot"
       - run: git config user.email "<>"
+      - run: git pull
       - run: git checkout gh-pages
       - run: git pull
       - run: git commit -m "Automatic commit by CI pipeline"
