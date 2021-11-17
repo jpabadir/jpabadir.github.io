@@ -24,6 +24,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm ci
     - run: npm run build
     - run: git add build
     - run: git commit -m "Automatic commit by CI pipeline"
