@@ -32,4 +32,4 @@ jobs:
       - run: git checkout gh-pages
       - run: git pull
       - run: git commit -m "Automatic commit by CI pipeline"
-      - run: git push origin master:gh-pages
+      - run: git push 
