@@ -33,5 +33,6 @@ jobs:
       - run: git pull
       - run: cp -rf build/* .
       - run: rm -rf build/
+      - run: git add .
       - run: git commit -m "Automatic commit by CI pipeline"
       - run: git push
