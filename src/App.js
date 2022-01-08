@@ -5,8 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={me} className="App-logo" alt="logo" />
-        <p>Site in construction. Come back for some cool updates!</p>
+        <div>Jean-Philippe Abadir</div>
+        <img src={me} className="ProfilePicture" alt="logo" />
+        <a href="article-1">article 1</a>
         <a className="App-link" href="https://github.com/jpabadir" target="_blank" rel="noopener noreferrer">
           My GitHub
         </a>
