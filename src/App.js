@@ -24,7 +24,18 @@ function App() {
   return (
     <div className="App">
       <div style={{ backgroundColor: 'black' }}>
-        <NavLink to="/">home</NavLink>
+        <NavLink
+          style={({ isActive }) => {
+            return {
+              display: 'inline-block',
+              padding: '10px 10px',
+              color: isActive ? 'red' : '',
+            };
+          }}
+          to="/"
+        >
+          home
+        </NavLink>
         {navItems.map((item) => (
           <NavLink
             style={({ isActive }) => {
