@@ -22,17 +22,13 @@ function App() {
   // }
   return (
     <div className="App">
-      <AppBar component="nav">
-        <Toolbar sx={{ backgroundColor: 'black' }}>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} href={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
+      <div style={{ backgroundColor: 'black' }}>
+        {navItems.map((item) => (
+          <Button key={item} href={item} sx={{ color: '#cccccc' }}>
+            {item}
+          </Button>
+        ))}
+      </div>
     </div>
   );
 }
