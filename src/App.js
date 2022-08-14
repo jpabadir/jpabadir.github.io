@@ -16,7 +16,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 function App() {
-  const [navItems, setNavItems] = useState(['coding', 'content', 'music', 'korean', 'blog']);
+  const [navItems, setNavItems] = useState(['coding', 'content', 'music', 'korean', 'investing', 'blog']);
   // function handleDrawerToggle() {
   //   console.log('Test');
   // }
