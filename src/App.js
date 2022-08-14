@@ -14,6 +14,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { Outlet, NavLink } from 'react-router-dom';
 
 function App() {
   const [navItems, setNavItems] = useState(['coding', 'content', 'music', 'spotify', 'korean', 'investing', 'blog']);
@@ -23,12 +24,23 @@ function App() {
   return (
     <div className="App">
       <div style={{ backgroundColor: 'black' }}>
+        <NavLink to="/">home</NavLink>
         {navItems.map((item) => (
-          <Button key={item} href={item} sx={{ color: '#cccccc' }}>
+          <NavLink
+            style={({ isActive }) => {
+              return {
+                display: 'inline-block',
+                padding: '10px 10px',
+                color: isActive ? 'red' : '',
+              };
+            }}
+            to={item}
+          >
             {item}
-          </Button>
+          </NavLink>
         ))}
       </div>
+      <Outlet />
     </div>
   );
 }
