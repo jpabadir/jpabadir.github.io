@@ -12,7 +12,12 @@ ReactDOM.render(
       <Route path="/" element={<App />}>
         <Route index element={<div>welcome</div>} />
         <Route path="coding" element={<div>hey</div>} />
-        <Route path="blog" element={<Blog />} />
+        <Route path="blog" element={<Blog />}>
+          <Route index element={<div>welcome to the blog</div>} />
+          <Route path="article-1" element={<div>article 1</div>} />
+          <Route path="article-2" element={<div>article 2</div>} />
+          <Route path="article-3" element={<div>article 3</div>} />
+        </Route>
         <Route path="*" element={<div>404. Who gave you this link?</div>} />
       </Route>
     </Routes>
