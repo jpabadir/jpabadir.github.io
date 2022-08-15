@@ -16,7 +16,7 @@ ReactDOM.render(
         <Route index element={<div>welcome young friend</div>} />
         <Route path="coding" element={<div>hey</div>} />
         <Route path="blog" element={<Blog />}>
-          <Route index element={<div>{JSON.stringify(blogsData)}</div>} />
+          <Route index element={<div>Welcome to the blog</div>} />
           {blogsData.map((blog) => (
             <Route key={blog.title} path={blog.title.replace(/\s+/g, '-').toLowerCase()} element={<Article content={blog.content} />} />
           ))}

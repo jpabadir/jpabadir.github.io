@@ -1,3 +1,8 @@
 export default function Article(props) {
-  return <div>{props.content}</div>;
+  const style = {
+    padding: '50px 30px',
+    color: 'white',
+    textAlign: 'start',
+  };
+  return <div style={style} dangerouslySetInnerHTML={{ __html: props.content }} />;
 }
