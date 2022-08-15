@@ -3,10 +3,7 @@ import './App.css';
 import { Outlet, NavLink } from 'react-router-dom';
 
 function App() {
-  const [navItems] = useState(['coding', 'content', 'music', 'spotify', 'korean', 'investing', 'blog']);
-  // function handleDrawerToggle() {
-  //   console.log('Test');
-  // }
+  const navItems = ['YouTube', 'blog'];
   return (
     <div className="App">
       <div style={{ backgroundColor: 'black' }}>
