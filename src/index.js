@@ -7,7 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Blog from './routes/blog';
 
 ReactDOM.render(
-  <BrowserRouter basename='/jpabadir.github.io'>
+  // <BrowserRouter basename='/jpabadir.github.io'>
+  <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<div>welcome!!</div>} />
