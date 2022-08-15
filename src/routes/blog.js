@@ -6,7 +6,7 @@ export default function Blog() {
     <div>
       <div>
         {blogsData.map((blog) => (
-          <div>
+          <div key={blog.title}>
             <NavLink style={{ color: 'white' }} to={blog.title.replace(/\s+/g, '-').toLowerCase()}>
               {blog.title}
             </NavLink>
