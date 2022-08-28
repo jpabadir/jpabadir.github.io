@@ -6,7 +6,7 @@
 
 .NavLink {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 5px 10px;
   color: grey;
 }
 
@@ -16,4 +16,5 @@
 
 .navbar {
   padding: 10px 0px;
+  background-color: black;
 }
