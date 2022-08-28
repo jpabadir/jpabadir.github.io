@@ -15,12 +15,11 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<div>Welcome, young friend.</div>} />
-        <Route path="blog" element={<Blog />}>
-          <Route index element={<div>Welcome to the blog</div>} />
-          {blogsData.map((blog) => (
-            <Route key={blog.title} path={linkify(blog.title)} element={<Article content={blog.content} />} />
-          ))}
-        </Route>
+        <Route path="blog" element={<Blog />} />
+        <Route index element={<div>Welcome to the blog</div>} />
+        {blogsData.map((blog) => (
+          <Route key={blog.title} path={`blog/${linkify(blog.title)}`} element={<Article content={blog.content} />} />
+        ))}
         <Route path="books-i-read" element={<Books>I'll put my channel here in a second.</Books>} />
         <Route path="*" element={<div>404. Who gave you this link?</div>} />
       </Route>
