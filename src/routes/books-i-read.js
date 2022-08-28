@@ -15,7 +15,7 @@ export default function Books() {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell>Author</TableCell>
+              <TableCell align="right">Author</TableCell>
               <TableCell align="right">Title</TableCell>
               <TableCell align="right">Date Started</TableCell>
               <TableCell align="right">Date Finished</TableCell>
