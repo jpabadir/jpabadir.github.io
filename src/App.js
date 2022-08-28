@@ -7,7 +7,7 @@ function App() {
   const navItems = [{ name: 'home', link: '/' }, { name: 'YouTube', link: 'https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw' }, { name: 'blog' }, { name: 'Books I read' }];
   return (
     <div className="App">
-      <div class="navbar">
+      <div className="navbar">
         {navItems.map((item) => {
           return item.link && item.link.includes('https') ? (
             // eslint-disable-next-line react/jsx-no-target-blank
