@@ -4,7 +4,7 @@ import { Outlet, NavLink } from 'react-router-dom';
 import linkify from './helpers';
 
 function App() {
-  const navItems = [{ name: 'home', link: '/' }, { name: 'YouTube', link: 'https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw' }, { name: 'blog' }, { name: 'Books I read' }];
+  const navItems = [{ name: 'Home', link: '/' }, { name: 'YouTube', link: 'https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw' }, { name: 'Blog' }, { name: "Books I've read", link: 'books-i-read' }];
   return (
     <div className="App">
       <div className="navbar">
