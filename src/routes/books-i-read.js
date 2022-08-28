@@ -7,7 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import './Books.css'
+import './Books.css';
 
 export default function Books() {
   return (
@@ -16,19 +16,35 @@ export default function Books() {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell align="right">Author</TableCell>
-              <TableCell align="right">Title</TableCell>
-              <TableCell align="right">Date Started</TableCell>
-              <TableCell align="right">Date Finished</TableCell>
+              <TableCell>
+                Author
+              </TableCell>
+              <TableCell>
+                Title
+              </TableCell>
+              <TableCell>
+                Date Started
+              </TableCell>
+              <TableCell>
+                Date Finished
+              </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {books.map((row) => (
               <TableRow key={row.title} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                <TableCell align="right">{row.author}</TableCell>
-                <TableCell align="right">{row.title}</TableCell>
-                <TableCell align="right">{row.dateStarted}</TableCell>
-                <TableCell align="right">{row.dateFinished}</TableCell>
+                <TableCell label="Author">
+                  {row.author}
+                </TableCell>
+                <TableCell label="Title">
+                  {row.title}
+                </TableCell>
+                <TableCell label="Date Started">
+                  {row.dateStarted}
+                </TableCell>
+                <TableCell label="Date Finished">
+                  {row.dateFinished}
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>
