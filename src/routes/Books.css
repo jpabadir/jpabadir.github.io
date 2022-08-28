@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+  table thead {
+    display: none !important;
+  }
+  table td {
+    display: flex !important;
+  }
+  
+  table td::before {
+    color: white !important;
+    content: attr(label) !important;
+    font-weight: bold !important;
+    /* width: 120px !important; */
+    /* min-width: 120px !important; */
+  }
+}
