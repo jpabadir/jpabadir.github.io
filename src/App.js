@@ -8,11 +8,18 @@ function App() {
   return (
     <div className="App">
       <div class="navbar">
-        {navItems.map((item) => (
-          <NavLink key={item.name} to={item.link ? item.link : linkify(item.name)} className="NavLink">
-            {item.name}
-          </NavLink>
-        ))}
+        {navItems.map((item) => {
+          return item.link && item.link.includes('https') ? (
+            // eslint-disable-next-line react/jsx-no-target-blank
+            <a target="_blank" rel="noopener" className="NavLink" href={item.link}>
+              {item.name}
+            </a>
+          ) : (
+            <NavLink key={item.name} to={item.link ? item.link : linkify(item.name)} className="NavLink">
+              {item.name}
+            </NavLink>
+          );
+        })}
       </div>
       <Outlet />
     </div>
