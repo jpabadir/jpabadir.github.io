@@ -1,4 +1,3 @@
-import { NavLink, Outlet } from 'react-router-dom';
 import books from '../books.json';
 import * as React from 'react';
 import Table from '@mui/material/Table';
@@ -12,55 +11,28 @@ import Paper from '@mui/material/Paper';
 export default function Books() {
   return (
     <div>
-      <table>
-        <tr>
-          <th>Author</th>
-          <th>Title</th>
-          <th>Date Started</th>
-          <th>Date Finished</th>
-        </tr>
-        {books.map((book) => (
-          <div key={book.title}>
-            <tr>
-              <td>{book.title}</td>
-              <td>{book.author}</td>
-              <td>{book.dateStarted}</td>
-              <td>{book.dateFinished}</td>
-            </tr>
-          </div>
-        ))}
-      </table>
+      <TableContainer component={Paper}>
+        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell>Author</TableCell>
+              <TableCell align="right">Title</TableCell>
+              <TableCell align="right">Date Started</TableCell>
+              <TableCell align="right">Date Finished</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {books.map((row) => (
+              <TableRow key={row.title} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                <TableCell align="right">{row.author}</TableCell>
+                <TableCell align="right">{row.title}</TableCell>
+                <TableCell align="right">{row.dateStarted}</TableCell>
+                <TableCell align="right">{row.dateFinished}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
     </div>
   );
 }
-
-
-{/* <TableContainer component={Paper}>
-<Table sx={{ minWidth: 650 }} aria-label="simple table">
-  <TableHead>
-    <TableRow>
-      <TableCell>Dessert (100g serving)</TableCell>
-      <TableCell align="right">Calories</TableCell>
-      <TableCell align="right">Fat&nbsp;(g)</TableCell>
-      <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-      <TableCell align="right">Protein&nbsp;(g)</TableCell>
-    </TableRow>
-  </TableHead>
-  <TableBody>
-    {rows.map((row) => (
-      <TableRow
-        key={row.name}
-        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-      >
-        <TableCell component="th" scope="row">
-          {row.name}
-        </TableCell>
-        <TableCell align="right">{row.calories}</TableCell>
-        <TableCell align="right">{row.fat}</TableCell>
-        <TableCell align="right">{row.carbs}</TableCell>
-        <TableCell align="right">{row.protein}</TableCell>
-      </TableRow>
-    ))}
-  </TableBody>
-</Table>
-</TableContainer> */}
