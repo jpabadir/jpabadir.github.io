@@ -3,3 +3,17 @@
   background-color: #282c34;
   min-height: 100vh;
 }
+
+.NavLink {
+  display: inline-block;
+  padding: 0px 10px;
+  color: grey;
+}
+
+.NavLink.active {
+  color: white;
+}
+
+.navbar {
+  padding: 10px 0px;
+}
