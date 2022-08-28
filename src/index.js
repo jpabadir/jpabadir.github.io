@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Home from './Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Blog from './routes/blog';
 import Books from './routes/books-i-read';
@@ -13,7 +14,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route index element={<div>Welcome, young friend.</div>} />
+        <Route index element={<Home />} />
         <Route path="blog" element={<Blog />} />
         <Route index element={<div>Welcome to the blog</div>} />
         {blogsData.map((blog) => (
