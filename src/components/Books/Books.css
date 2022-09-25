@@ -2,7 +2,7 @@
   color: #cccccc;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
   table thead {
     display: none !important;
   }
@@ -15,7 +15,6 @@
   }
   
   table td::before {
-    color: white !important;
     content: attr(label) !important;
     font-weight: bold !important;
     width: 120px !important;

@@ -15,10 +15,10 @@ export default function Books() {
         <Table aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell sx={{ color: 'inherit' }}>Author</TableCell>
-              <TableCell sx={{ color: 'inherit' }}>Title</TableCell>
-              <TableCell sx={{ color: 'inherit' }}>Date Started</TableCell>
-              <TableCell sx={{ color: 'inherit' }}>Date Finished</TableCell>
+              <TableCell sx={{ color: 'inherit', fontWeight: 'bold' }}>Author</TableCell>
+              <TableCell sx={{ color: 'inherit', fontWeight: 'bold' }}>Title</TableCell>
+              <TableCell sx={{ color: 'inherit', fontWeight: 'bold' }}>Date Started</TableCell>
+              <TableCell sx={{ color: 'inherit', fontWeight: 'bold' }}>Date Finished</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
