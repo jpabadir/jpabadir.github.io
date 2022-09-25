@@ -1,5 +1,7 @@
+import React from 'react';
 import './Article.css';
 
 export default function Article(props) {
-  return <div dangerouslySetInnerHTML={{ __html: props.blog.content }} />;
+  const ComponentToRender = require(`../../data/blogs/${props.url}`).default;
+  return <ComponentToRender />;
 }
