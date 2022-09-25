@@ -10,11 +10,7 @@ export default function Blog() {
             <NavLink className="Link NavLink container" to={blog.title.replace(/\s+/g, '-').toLowerCase()}>
               <div className="row justify-content-between">
                 <div className="col-lg-6">
-                  <img
-                    style={{ width: '300px' }}
-                    src={`https://i.ytimg.com/vi/OBzSOglT6U4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhGbiSdz12jMioRGAKbChul81Meg`}
-                    alt={blog.title}
-                  />
+                  <img style={{ width: '300px' }} src={blog.image} alt={blog.title} />
                 </div>
                 <div className="col-lg-6 d-flex align-items-center">
                   <div>{blog.title}</div>
