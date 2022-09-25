@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { Outlet, NavLink } from 'react-router-dom';
 import linkify from '../../helpers';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 function App() {
   const navItems = [
@@ -13,7 +12,7 @@ function App() {
   ];
   return (
     <div className="App">
-      <div className="navbar">
+      <div className="customNavbarClass">
         {navItems.map((item) => {
           return item.link && item.link.includes('https') ? (
             // eslint-disable-next-line react/jsx-no-target-blank

@@ -9,6 +9,7 @@ import Books from './components/Books/Books';
 import blogsData from './data/blogs/blogs-headers.json';
 import Article from './components/Article/Article';
 import linkify from './helpers';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <BrowserRouter>
