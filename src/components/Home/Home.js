@@ -34,6 +34,13 @@ export default function Home() {
             />
           </div>
         </div>
+        {/* <div className="container mt-5">
+          <div className="row">
+            <div className="col">Twitter</div>
+            <div className="col">Instagram</div>
+            <div className="col">instagram</div>
+          </div>
+        </div> */}
       </div>
     </div>
   );
