@@ -6,7 +6,7 @@ import Home from './components/Home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Blog from './components/Blog/Blog';
 import Books from './components/Books/Books';
-import blogsData from './data/blogs/blogs-header.json';
+import blogsData from './data/blogs/blogs.json';
 import Article from './components/Article/Article';
 import linkify from './helpers';
 
@@ -18,7 +18,7 @@ ReactDOM.render(
         <Route path="blog" element={<Blog />} />
         <Route index element={<div>Welcome to the blog</div>} />
         {blogsData.map((blog) => (
-          <Route key={blog.title} path={`blog/${linkify(blog.title)}`} element={<Article content={linkify(blog.title)} />} />
+          <Route key={blog.title} path={`blog/${linkify(blog.title)}`} element={<Article blog={blog} />} />
         ))}
         <Route path="books-i-read" element={<Books>I'll put my channel here in a second.</Books>} />
         <Route path="*" element={<div>404. Who gave you this link?</div>} />
