@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Home from './Home';
+import App from './components/App/App';
+import Home from './components/Home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Blog from './routes/blog';
-import Books from './routes/books-i-read';
-import blogsData from './blogs.json';
-import Article from './Article';
+import Blog from './components/Blog/Blog';
+import Books from './components/Books/Books';
+import blogsData from './data/blogs.json';
+import Article from './components/Article/Article';
 import linkify from './helpers';
 
 ReactDOM.render(

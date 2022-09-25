@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import blogsData from '../blogs.json';
+import blogsData from '../../data/blogs.json';
 
 export default function Blog() {
   return (

@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Outlet, NavLink } from 'react-router-dom';
-import linkify from './helpers';
+import linkify from '../../helpers';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
 
 
 function App() {
