@@ -6,29 +6,36 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
 import './Books.css';
 
 export default function Books() {
   return (
     <div>
-      <TableContainer component={Paper}>
+      <TableContainer>
         <Table aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell>Author</TableCell>
-              <TableCell>Title</TableCell>
-              <TableCell>Date Started</TableCell>
-              <TableCell>Date Finished</TableCell>
+              <TableCell sx={{ color: 'inherit' }}>Author</TableCell>
+              <TableCell sx={{ color: 'inherit' }}>Title</TableCell>
+              <TableCell sx={{ color: 'inherit' }}>Date Started</TableCell>
+              <TableCell sx={{ color: 'inherit' }}>Date Finished</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {books.map((row) => (
               <TableRow key={row.title} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                <TableCell label="Author">{row.author}</TableCell>
-                <TableCell label="Title">{row.title}</TableCell>
-                <TableCell label="Date Started">{row.dateStarted}</TableCell>
-                <TableCell label="Date Finished">{row.dateFinished}</TableCell>
+                <TableCell sx={{ color: 'inherit' }} label="Title">
+                  {row.title}
+                </TableCell>
+                <TableCell sx={{ color: 'inherit' }} label="Author">
+                  {row.author}
+                </TableCell>
+                <TableCell sx={{ color: 'inherit' }} label="Date Started">
+                  {row.dateStarted}
+                </TableCell>
+                <TableCell sx={{ color: 'inherit' }} label="Date Finished">
+                  {row.dateFinished}
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>
