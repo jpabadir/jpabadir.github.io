@@ -1,3 +1,7 @@
+* {
+  font-size: 18px;
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -6,21 +10,21 @@
 .NavLink {
   display: inline-block;
   padding: 5px 10px;
-  color: grey;
+  color: rgb(185, 185, 185);
   text-decoration: none; 
   transition: 200ms;
   background-color: inherit;
 }
 
 .NavLink.active {
-  color: black;
+  color: white;
 }
 
 .NavLink:hover {
-  color: black;
+  color: white;
 }
 
 .navbar {
   padding: 10px 0px;
-  box-shadow: 0 0px 10px 5px rgb(0 0 0 / 20%);
+  background-color: rgb(107, 31, 31);
 }
