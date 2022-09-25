@@ -5,6 +5,10 @@
   font-size: 17px;
 }
 
+.Content {
+  padding: 50px 30px;
+}
+
 .NavLink {
   display: inline-block;
   padding: 5px 10px;

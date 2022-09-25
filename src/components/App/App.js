@@ -27,7 +27,9 @@ function App() {
           );
         })}
       </div>
-      <Outlet />
+      <div className="Content">
+        <Outlet />
+      </div>
     </div>
   );
 }
