@@ -1,0 +1,9 @@
+.BlogLink {
+  color: black;
+}
+
+.BlogThumbnail {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
