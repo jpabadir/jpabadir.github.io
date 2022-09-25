@@ -4,7 +4,6 @@ import { Outlet, NavLink } from 'react-router-dom';
 import linkify from '../../helpers';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-
 function App() {
   const navItems = [
     { name: 'Home', link: '/' },
@@ -13,31 +12,23 @@ function App() {
     { name: "Books I've read", link: 'books-i-read' },
   ];
   return (
-    <ThemeProvider
-      theme={createTheme({
-        palette: {
-          mode: 'dark',
-        },
-      })}
-    >
-      <div className="App">
-        <div className="navbar">
-          {navItems.map((item) => {
-            return item.link && item.link.includes('https') ? (
-              // eslint-disable-next-line react/jsx-no-target-blank
-              <a key={item.name} target="_blank" rel="noopener" className="NavLink" href={item.link}>
-                {item.name}
-              </a>
-            ) : (
-              <NavLink key={item.name} to={item.link ? item.link : linkify(item.name)} className="NavLink">
-                {item.name}
-              </NavLink>
-            );
-          })}
-        </div>
-        <Outlet />
+    <div className="App">
+      <div className="navbar">
+        {navItems.map((item) => {
+          return item.link && item.link.includes('https') ? (
+            // eslint-disable-next-line react/jsx-no-target-blank
+            <a key={item.name} target="_blank" rel="noopener" className="NavLink" href={item.link}>
+              {item.name}
+            </a>
+          ) : (
+            <NavLink key={item.name} to={item.link ? item.link : linkify(item.name)} className="NavLink">
+              {item.name}
+            </NavLink>
+          );
+        })}
       </div>
-    </ThemeProvider>
+      <Outlet />
+    </div>
   );
 }
 

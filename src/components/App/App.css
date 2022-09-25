@@ -1,6 +1,9 @@
+* {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
-  background-color: #282c34;
   min-height: 100vh;
   color: #cccccc;
 }
@@ -11,6 +14,7 @@
   color: grey;
   text-decoration: none; 
   transition: 200ms;
+  background-color: inherit;
 }
 
 .NavLink.active {
