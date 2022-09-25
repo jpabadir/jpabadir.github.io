@@ -6,7 +6,7 @@ import Home from './components/Home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Blog from './components/Blog/Blog';
 import Books from './components/Books/Books';
-import blogsData from './data/blogs.json';
+import blogsData from './data/blogs/blogs-header.json';
 import Article from './components/Article/Article';
 import linkify from './helpers';
 
