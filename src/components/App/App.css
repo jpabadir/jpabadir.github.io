@@ -1,11 +1,6 @@
-* {
-  background-color: #282c34;
-}
-
 .App {
   text-align: center;
   min-height: 100vh;
-  color: #e5e5e5;
 }
 
 .NavLink {
@@ -18,15 +13,14 @@
 }
 
 .NavLink.active {
-  color: white;
+  color: black;
 }
 
 .NavLink:hover {
-  color: white;
+  color: black;
 }
 
 .navbar {
   padding: 10px 0px;
-  background-color: #1e2225;
   box-shadow: 0 0px 10px 5px rgb(0 0 0 / 20%);
 }
