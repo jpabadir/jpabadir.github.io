@@ -1,8 +1,14 @@
 [
   {
+    "title": "How Working Out Every Day Completely Changed my Life",
+    "subtitle": "test",
+    "publishDate": "2022-08-15",
+    "image": "https://i.ytimg.com/vi/OBzSOglT6U4/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhGbiSdz12jMioRGAKbChul81Meg"
+  },
+  {
     "title": "Everyone should have perfect grammar",
     "subtitle": "test",
-    "content": "<h1>test<h1/>",
-    "publishDate": "2022-08-15"
+    "publishDate": "2022-08-15",
+    "image": "../../assets/picofme.jpeg"
   }
 ]

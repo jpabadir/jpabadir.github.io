@@ -9,13 +9,16 @@
   padding: 50px 10px;
 }
 
-.NavLink {
+.Link {
   display: inline-block;
   padding: 5px 10px;
-  color: rgb(185, 185, 185);
   text-decoration: none; 
   transition: 200ms;
   background-color: inherit;
+}
+
+.NavLink {
+  color: rgb(185, 185, 185);
 }
 
 .NavLink.active {
