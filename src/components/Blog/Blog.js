@@ -8,7 +8,7 @@ export default function Blog() {
         {blogsData.map((blog) => (
           <div key={blog.title}>
             <NavLink className="Link NavLink container" to={blog.title.replace(/\s+/g, '-').toLowerCase()}>
-              <div className="row justify-content-between">
+              <div className="row">
                 <div className="col-lg-6">
                   <img style={{ width: '350px', height: '200px', borderRadius: '10px' }} src={blog.image} alt={blog.title} />
                 </div>
