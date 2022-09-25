@@ -1,6 +1,5 @@
-export default function Article(props) {
-  const style = {
-    textAlign: 'start',
-  };
-  return <div style={style} dangerouslySetInnerHTML={{ __html: props.content }} />;
+import './Article.css';
+
+export default function Article() {
+  return <div dangerouslySetInnerHTML={{ __html:  '<p>hey</p>'}} />;
 }
