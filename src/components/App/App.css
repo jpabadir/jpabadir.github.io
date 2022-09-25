@@ -2,7 +2,7 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .NavLink {
@@ -23,7 +23,7 @@
 }
 
 .navbar {
-  font-size: 17px;
+  font-size: 16px;
   padding: 10px 0px;
   background-color: rgb(107, 31, 31);
 }
