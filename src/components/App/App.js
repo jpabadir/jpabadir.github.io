@@ -10,6 +10,7 @@ function App() {
     { name: 'Articles' },
     { name: "Books I've read", link: 'books-i-read' },
     { name: "Countries I've been to", link: 'countries' },
+    { name: 'Investment Portfolio' },
   ];
   return (
     <div className="App">
