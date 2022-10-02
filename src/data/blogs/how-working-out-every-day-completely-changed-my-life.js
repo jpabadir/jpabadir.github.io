@@ -29,31 +29,7 @@ export default function Content() {
         had to because I had a high metabolism), I always looked lean and quite athletic as a kid, and into my late teens until I was about 20. And so the incentive to start taking good care of your
         body isn&rsquo;t as strong when you naturally look decent.
       </p>
-      <p className="p2">
-        <br />
-      </p>
-      <p className="p2">
-        <br />
-      </p>
-      <p className="p2">
-        <br />
-      </p>
-      <p className="p2">
-        <br />
-      </p>
-      <p className="p2">
-        <br />
-      </p>
-      <p className="p2">
-        <br />
-      </p>
       <p className="p2"> </p>
-      <p className="p2">
-        <br />
-      </p>
-      <p className="p2">
-        <br />
-      </p>
       <p>
         <span className="s1">
           <strong>
@@ -65,12 +41,6 @@ export default function Content() {
         <li className="li4">Pictures of me at 15 (from Facebook, or the one with my family)</li>
         <li className="li4">Even better would be some video of me at 15 (could try to find from Facebook)</li>
       </ul>
-      <p className="p2">
-        <br />
-      </p>
-      <p className="p2">
-        <br />
-      </p>
       <p className="p3">Conflict (a moment where things are disturbed):</p>
       <p>
         <span className="s1">
@@ -143,9 +113,6 @@ export default function Content() {
         intensity, so find something you like. I will add, however, that having a coach really helps in getting intensity. When I go to the Muay Thai gym, I would never push myself as much as the
         coaches push me. That&rsquo;s why if you can join some kind of club rather than only practicing on your own, I would recommend doing so.<span className="Apple-converted-space"></span>
       </p>
-      <p className="p2">
-        <br />
-      </p>
       <p>
         <span className="s1">
           <strong>Visuals:</strong>
@@ -161,9 +128,6 @@ export default function Content() {
         </li>
         <li className="li4">Me at Muay Thai</li>
       </ul>
-      <p className="p2">
-        <br />
-      </p>
       <p className="p3">
         Resolution (what I found out):<span className="Apple-converted-space"></span>
       </p>
