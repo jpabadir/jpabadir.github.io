@@ -1,7 +1,8 @@
 export default function Content() {
   return (
     <div>
-      <p>
+      I'm still working on this, but it'll be up soon.
+      {/* <p>
         I&rsquo;ve always known that there are some people who love to exercise. Growing up, my brother was always very athletic and doing lots of sports and activities. And I also remember a few
         years ago, talking with my friend Ben about another one of our friends who used to run super long distance trails and telling him &ldquo;wow, I don&rsquo;t understand how he could do
         that&rdquo;, and Ben told me &ldquo;He likes the way it makes him feel&rdquo;. And back then, I didn&rsquo;t understand that at all.
@@ -250,7 +251,7 @@ export default function Content() {
         exercising, myself included, we still have to discipline ourselves to get to the gym. Especially after taking a break for a few days and getting back into it, it always feel painful and
         awkward. But it&rsquo;s always 100% worth it, and if you find a sport you enjoy and which gives you intensity, I&rsquo;m confident you can enjoy the same benefits as the ones I&rsquo;ve
         described here. So, give it a try! I doubt you&rsquo;ll regret it.
-      </p>
+      </p> */}
     </div>
   );
 }
