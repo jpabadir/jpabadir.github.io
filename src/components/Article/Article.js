@@ -3,7 +3,7 @@ import './Article.css';
 import { linkify } from '../../helpers';
 
 export default function Article(props) {
-  const ComponentToRender = require(`../../data/blogs/${linkify(props.blog.title)}`).default;
+  const ComponentToRender = require('../../data/blogs/' + linkify(props.blog.title)).default;
   return (
     <div className="Article">
       <div style={{ maxWidth: '1100px' }}>
