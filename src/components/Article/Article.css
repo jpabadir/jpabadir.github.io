@@ -6,6 +6,7 @@
 
 .ArticleImage {
   width: 100%;
+  aspect-ratio: 16 / 9;
   max-width: 900px;
   border-radius: 10px;
 }
