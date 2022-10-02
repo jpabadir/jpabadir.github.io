@@ -21,7 +21,7 @@ ReactDOM.render(
         <Route path="articles" element={<Blog />} />
         <Route index element={<div>Welcome to the blog</div>} />
         {blogsData.map((blog) => (
-          <Route key={blog.title} path={`articles/${linkify(blog.title)}`} element={<Article url={linkify(blog.title)} />} />
+          <Route key={blog.title} path={`articles/${linkify(blog.title)}`} element={<Article blog={blog} />} />
         ))}
         <Route path="books-i-read" element={<Books />} />
         <Route path="countries" element={<Countries />} />
