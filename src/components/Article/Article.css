@@ -1,9 +1,21 @@
 .Article {
   text-align: justify;
+  justify-content: center;
+  display: flex;
 }
 
 .ArticleImage {
   width: 100%;
   max-width: 900px;
   border-radius: 10px;
+}
+
+.Subtitle {
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.Date {
+  opacity: 0.6;
+  font-size: 15px;
 }
