@@ -1,6 +1,6 @@
 import React from 'react';
 import './Article.css';
-import linkify from '../../helpers';
+import { linkify } from '../../helpers';
 
 export default function Article(props) {
   const ComponentToRender = require(`../../data/blogs/${linkify(props.blog.title)}`).default;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Outlet, NavLink } from 'react-router-dom';
-import linkify from '../../helpers';
+import { linkify } from '../../helpers';
 
 function App() {
   const navItems = [

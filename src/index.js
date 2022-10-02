@@ -9,7 +9,7 @@ import Books from './components/Books/Books';
 import blogsData from './data/blogs/blogs-headers.json';
 import Article from './components/Article/Article';
 import Countries from './components/Countries/Countries';
-import linkify from './helpers';
+import { linkify } from './helpers';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import InvestmentPortfolio from './components/InvestmentPortfolio/InvestmentPortfolio';
 
