@@ -18,7 +18,7 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
-            <p>My name is JP. I'm a software engineer, and I also like to do other stuff, like invest in stocks and create content.testing</p>
+            <p>My name is JP. I'm a software engineer, and I also like to do other stuff, like invest in stocks and create content.</p>
           </div>
           <div className="col-12 col-lg-6">
             <iframe
