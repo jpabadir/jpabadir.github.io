@@ -12,6 +12,7 @@ function App() {
     { name: "Books I've read", link: 'books-i-read' },
     { name: "Countries I've been to", link: 'countries' },
     { name: 'Investment Portfolio' },
+    { name: 'Newsletter' },
   ];
   return (
     <div className="App">

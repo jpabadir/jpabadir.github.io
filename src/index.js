@@ -12,6 +12,7 @@ import Countries from './components/Countries/Countries';
 import { linkify } from './helpers';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import InvestmentPortfolio from './components/InvestmentPortfolio/InvestmentPortfolio';
+import Newsletter from './components/Newsletter/Newsletter';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route path="books-i-read" element={<Books />} />
         <Route path="countries" element={<Countries />} />
         <Route path="investment-portfolio" element={<InvestmentPortfolio />} />
+        <Route path="newsletter" element={<Newsletter />} />
         <Route path="*" element={<div>404. Who gave you this link?</div>} />
       </Route>
     </Routes>
