@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Outlet, NavLink } from 'react-router-dom';
 import { linkify } from '../../helpers';
+import Footer from '../Footer/Footer'
 
 function App() {
   const navItems = [
@@ -31,6 +32,7 @@ function App() {
       <div className="Content">
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 }
