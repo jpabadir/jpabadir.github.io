@@ -11,7 +11,7 @@ export default function Newsletter() {
       <br />
       <h4>What will you send?</h4>
       I'm not sure, honestly. The content of the newsletter will probably reflect the eclectic nature of my interests. I might share my current thoughts on the stock market, an article I found
-      interesting, a new project I'm building, something about the current book I'm reading, or maybe some music. Or maybe all of those! We'll see.
+      interesting, a new project I'm building, something about the current book I'm reading, or maybe some music. Or maybe all of these! We'll see.
       <div className="Newsletter">
         <div dangerouslySetInnerHTML={{ __html: formCode }} />
       </div>
