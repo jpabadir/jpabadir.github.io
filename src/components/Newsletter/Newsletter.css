@@ -2,3 +2,13 @@
   display: flex;
   justify-content: center;
 }
+
+.formkit-input {
+  width: 400px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .formkit-input {
+    width: 200px !important;
+  }
+}
