@@ -3,8 +3,14 @@ import './Newsletter.css';
 
 export default function Newsletter() {
   return (
-    <div className="Newsletter">
-      <div className="NewsletterForm" dangerouslySetInnerHTML={{ __html: formCode }} />
+    <div>
+      <h1>Do you want to join my newsletter?</h1>
+      Personally, I'm pretty protective with my inbox, so don't feel pressured to join this. Personally, I'm pretty protective with my inbox, so don't feel pressured to join this. Personally, I'm
+      pretty protective with my inbox, so don't feel pressured to join this. Personally, I'm pretty protective with my inbox, so don't feel pressured to join this. Personally, I'm pretty protective
+      with my inbox, so don't feel pressured to join this. Personally, I'm pretty protective with my inbox, so don't feel pressured to join this.
+      <div className="Newsletter">
+        <div className="NewsletterForm justify-content-between" dangerouslySetInnerHTML={{ __html: formCode }} />
+      </div>
     </div>
   );
 }

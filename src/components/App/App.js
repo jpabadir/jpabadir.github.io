@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Outlet, NavLink } from 'react-router-dom';
 import { linkify } from '../../helpers';
-import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer';
 
 function App() {
   const navItems = [
@@ -30,8 +30,10 @@ function App() {
           );
         })}
       </div>
-      <div className="Content">
-        <Outlet />
+      <div className="d-flex justify-content-center">
+        <div className="Content">
+          <Outlet />
+        </div>
       </div>
       {/* <Footer /> */}
     </div>

@@ -1,8 +1,11 @@
 .Newsletter {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .NewsletterForm {
-    width: 600px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
 }
