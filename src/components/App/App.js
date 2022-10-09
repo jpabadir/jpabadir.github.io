@@ -33,7 +33,7 @@ function App() {
       <div className="Content">
         <Outlet />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
