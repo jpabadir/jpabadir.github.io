@@ -4,7 +4,7 @@ import './Newsletter.css';
 export default function Newsletter() {
   return (
     <div>
-      <h1>Do you want to join my newsletter?</h1>
+      <h1>Join my newsletter</h1>
       <h4>How often does it come?</h4>
       Once per week.
       <br />
