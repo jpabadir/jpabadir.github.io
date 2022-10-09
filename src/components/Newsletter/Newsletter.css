@@ -1,0 +1,8 @@
+.Newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.NewsletterForm {
+    width: 600px;
+}
