@@ -40,7 +40,7 @@ export default function InvestmentPortfolio() {
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col">
+        <div className="col d-flex justify-content-center">
           <table>
             <thead>
               <tr>
