@@ -1,45 +1,35 @@
-import { useEffect, useState } from 'react';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import { Doughnut } from 'react-chartjs-2';
+import './InvestmentPortfolio.css';
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function InvestmentPortfolio() {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const scriptTag = document.createElement('script');
-    scriptTag.src = 'https://www.gstatic.com/charts/loader.js';
-    scriptTag.addEventListener('load', () => setLoaded(true));
-    document.body.appendChild(scriptTag);
-  });
-
-  useEffect(() => {
-    if (!loaded) return;
-
-    window.google.charts.load('current', { packages: ['corechart'] });
-    window.google.charts.setOnLoadCallback(drawPortfolioChart);
-
-    function drawPortfolioChart() {
-      var data = window.google.visualization.arrayToDataTable([
-        ['Stock', 'Portfolio Percentage'],
-        ['TSLA', 10],
-        ['VOO', 10],
-        ['TQQQ', 10],
-        ['CCL', 10],
-        ['NOBL', 10],
-        ['QQQ', 10],
-        ['ARKK', 10],
-        ['META', 10],
-        ['IJR', 10],
-        ['TTCF', 10],
-      ]);
-      var chart = new window.google.visualization.PieChart(document.getElementById('piechart'));
-
-      chart.draw(data);
-    }
-  }, [loaded]);
-
+  const data = {
+    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    datasets: [
+      {
+        label: 'Security',
+        data: [12, 19, 3, 5, 2, 3],
+        backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)'],
+        borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'],
+        borderWidth: 1,
+      },
+    ],
+  };
   return (
     <div>
-      <p>I like investing in stocks. Here's a breakdown of my portfolio</p>
-      <div id="piechart"></div>
+      <h2>I like investing in stocks. Here's a breakdown of my portfolio</h2>
+      <div className="row justify-content-center">
+        <div className="col-lg-3">
+          <Doughnut data={data} className="PieChart" />
+        </div>
+        <div className="col-lg-3">
+          <Doughnut data={data} className="PieChart" />
+        </div>
+        <div className="col-lg-3">
+          <Doughnut data={data} className="PieChart" />
+        </div>
+      </div>
     </div>
   );
 }
