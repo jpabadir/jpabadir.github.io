@@ -9,8 +9,19 @@
   text-decoration-color: rgb(62, 62, 62);
 }
 
+.BlogThumbnailParent {
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .BlogThumbnail {
   width: 330px;
   height: 190px;
   border-radius: 10px;
+  transition: 200ms;
+}
+
+.BlogThumbnailScaled {
+  scale: 1.1;
 }
