@@ -1,6 +1,12 @@
 import { Chart as ChartJS, ArcElement, PointElement, LineElement, Tooltip, Legend, CategoryScale, LinearScale } from 'chart.js';
 import { Doughnut, Line } from 'react-chartjs-2';
 import './InvestmentPortfolio.css';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
 ChartJS.register(ArcElement, PointElement, LineElement, Tooltip, Legend, CategoryScale, LinearScale);
 
 export default function InvestmentPortfolio() {
@@ -12,7 +18,7 @@ export default function InvestmentPortfolio() {
         data: [12, 19, 3, 5, 2, 3],
         backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)'],
         borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'],
-        borderWidth: 1,
+        borderWidTableCell: 1,
       },
     ],
   };
@@ -41,26 +47,28 @@ export default function InvestmentPortfolio() {
       </div>
       <div className="row mt-5">
         <div className="col d-flex justify-content-center">
-          <table>
-            <thead>
-              <tr>
-                <th>Security</th>
-                <th>Number of Shares</th>
-                <th>Cost Basis</th>
-                <th>Price</th>
-                <th>Total Percentage Change</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>TSLA</td>
-                <td>5</td>
-                <td>240</td>
-                <td>150</td>
-                <td>-50%</td>
-              </tr>
-            </tbody>
-          </table>
+          <TableContainer>
+            <Table aria-label="simple table">
+              <TableHead aria-label="simple table">
+                <TableRow>
+                  <TableCell>Security</TableCell>
+                  <TableCell>Number of Shares</TableCell>
+                  <TableCell>Cost Basis</TableCell>
+                  <TableCell>Price</TableCell>
+                  <TableCell>Total Percentage Change</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                <TableRow>
+                  <TableCell>TSLA</TableCell>
+                  <TableCell>5</TableCell>
+                  <TableCell>240</TableCell>
+                  <TableCell>150</TableCell>
+                  <TableCell>-50%</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
         </div>
       </div>
     </div>
