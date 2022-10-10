@@ -1,7 +1,7 @@
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
+import { Chart as ChartJS, ArcElement, PointElement, LineElement, Tooltip, Legend, CategoryScale, LinearScale } from 'chart.js';
+import { Doughnut, Line } from 'react-chartjs-2';
 import './InvestmentPortfolio.css';
-ChartJS.register(ArcElement, Tooltip, Legend);
+ChartJS.register(ArcElement, PointElement, LineElement, Tooltip, Legend, CategoryScale, LinearScale);
 
 export default function InvestmentPortfolio() {
   const data = {
@@ -16,18 +16,51 @@ export default function InvestmentPortfolio() {
       },
     ],
   };
+  const lineData = {
+    labels: [1, 2, 3, 4],
+    datasets: [
+      {
+        label: 'My First Dataset',
+        data: [65, 59, 80, 81, 56, 55, 40],
+        fill: false,
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.1,
+      },
+    ],
+  };
   return (
     <div>
       <h2>I like investing in stocks. Here's a breakdown of my portfolio</h2>
       <div className="row justify-content-center">
-        <div className="col-lg-3">
+        <div className="col-lg-6 d-flex justify-content-center">
           <Doughnut data={data} className="PieChart" />
         </div>
-        <div className="col-lg-3">
-          <Doughnut data={data} className="PieChart" />
+        <div className="col-lg-6 d-flex justify-content-center">
+          <Line data={lineData} className="PieChart" />
         </div>
-        <div className="col-lg-3">
-          <Doughnut data={data} className="PieChart" />
+      </div>
+      <div className="row mt-5">
+        <div className="col">
+          <table>
+            <thead>
+              <tr>
+                <th>Security</th>
+                <th>Number of Shares</th>
+                <th>Cost Basis</th>
+                <th>Price</th>
+                <th>Total Percentage Change</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>TSLA</td>
+                <td>5</td>
+                <td>240</td>
+                <td>150</td>
+                <td>-50%</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
