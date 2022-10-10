@@ -34,6 +34,12 @@ export default function InvestmentPortfolio() {
       },
     ],
   };
+  const tableData = [
+    { security: 'TSLA', shareNum: '5', costBasis: '240', price: '150', percentageChange: '-50%' },
+    { security: 'TTCF', shareNum: '5', costBasis: '240', price: '150', percentageChange: '-50%' },
+    { security: 'PLTR', shareNum: '5', costBasis: '240', price: '150', percentageChange: '-50%' },
+  ];
+
   return (
     <div>
       <h2>I like investing in stocks. Here's a breakdown of my portfolio</h2>
@@ -59,13 +65,25 @@ export default function InvestmentPortfolio() {
                 </TableRow>
               </TableHead>
               <TableBody>
-                <TableRow>
-                  <TableCell>TSLA</TableCell>
-                  <TableCell>5</TableCell>
-                  <TableCell>240</TableCell>
-                  <TableCell>150</TableCell>
-                  <TableCell>-50%</TableCell>
-                </TableRow>
+                {tableData.map((row) => (
+                  <TableRow key={row.security} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                    <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Security">
+                      {row.security}
+                    </TableCell>
+                    <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Number of Shares">
+                      {row.shareNum}
+                    </TableCell>
+                    <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Cost Basis">
+                      {row.costBasis}
+                    </TableCell>
+                    <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Price">
+                      {row.price}
+                    </TableCell>
+                    <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Total Percentage Change">
+                      {row.percentageChange}
+                    </TableCell>
+                  </TableRow>
+                ))}
               </TableBody>
             </Table>
           </TableContainer>
