@@ -6,7 +6,7 @@
 
 .ArticleImage {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  /* aspect-ratio: 16 / 9; */
   max-width: 900px;
   border-radius: 10px;
 }
@@ -19,4 +19,8 @@
 .Date {
   opacity: 0.6;
   font-size: 15px;
+}
+
+.ImageCaption {
+  opacity: 0.8;
 }

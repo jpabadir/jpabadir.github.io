@@ -1,8 +1,10 @@
+import './BlogStyles.css';
+
 export default function Content() {
   return (
     <div>
-      I'm still working on this, but it'll be up soon.
-      {/* <p>
+      <h4 className="BlogSubheading">Background</h4>
+      <p>
         I&rsquo;ve always known that there are some people who love to exercise. Growing up, my brother was always very athletic and doing lots of sports and activities. And I also remember a few
         years ago, talking with my friend Ben about another one of our friends who used to run super long distance trails and telling him &ldquo;wow, I don&rsquo;t understand how he could do
         that&rdquo;, and Ben told me &ldquo;He likes the way it makes him feel&rdquo;. And back then, I didn&rsquo;t understand that at all.
@@ -15,7 +17,6 @@ export default function Content() {
       <p>
         You see, I always viewed exercising as a second priority. My first priority has always been, and still is, my career. And up until recently, I didn&rsquo;t view my life in a very holistic way.
         I knew that my main goal was making money, and I didn&rsquo;t think there was very much room for me to also be athletic while pursuing that endeavour.
-        
       </p>
       <p>
         I viewed exercising as something I had to do every two or three days because it&rsquo;s important to exercise, and throughout most of my life, I would do it out of duty. I would tell myself
@@ -34,7 +35,7 @@ export default function Content() {
         <li className="li4">Pictures of me at 15 (from Facebook, or the one with my family)</li>
         <li className="li4">Even better would be some video of me at 15 (could try to find from Facebook)</li>
       </ul>
-      <p className="p3">Conflict (a moment where things are disturbed):</p>
+      <h4 className="BlogSubheading">Weight Gain</h4>
       <p>
         But then, something happened. I hit my early twenties and made almost no changes to my diet or exercise. Why should I, right? It had worked well thus far and, after all, a young adult in their
         early twenties still has a high metabolism, it&rsquo;s not like I was 45 years old and eating like I was when I was 17.
@@ -54,15 +55,13 @@ export default function Content() {
       </p>
       <p>
         At the same time as my weight gain, my mindset around life changed a bit. I started seeing my life more as an RPG. For those of you who may not know what an RPG is, it&rsquo;s a type of video
-        game where you play as one single character and as you play the game you can improve multiple aspects (or stats) of your character by doing
-        various tasks and missions. Those stats for your character (like strength, stamina, driving, flying) are displayed clearly and quantitatively,
-        meaning you get an actual number put on them, which makes it easy to see if you&rsquo;re improving, and rewardingand tangible when you do so. As
-        you take on more challenging tasks your stats improve, which allows you to take on even more challenging tasks.
+        game where you play as one single character and as you play the game you can improve multiple aspects (or stats) of your character by doing various tasks and missions. Those stats for your
+        character (like strength, stamina, driving, flying) are displayed clearly and quantitatively, meaning you get an actual number put on them, which makes it easy to see if you&rsquo;re
+        improving, and rewardingand tangible when you do so. As you take on more challenging tasks your stats improve, which allows you to take on even more challenging tasks.
       </p>
       <p>
         And so if you think of your own life as an RPG (which it pretty much is), sure, you can just work on one stat and be really really strong at it (for me, the stat I was trying for was money),
         but actually, it&rsquo;s pretty interesting to try and work on multiple stats, to be a more complete person. There is a lot to explore and learn in life.
-        
       </p>
       <p>
         Now don&rsquo;t get me wrong, my career is still my main focus in life, but nonetheless, the idea of life as a video game or an RPG, where you can level up your character on a bunch of
@@ -83,10 +82,8 @@ export default function Content() {
         with you. Wouldn&rsquo;t you do everything you can to have that backpack look pristine? I certainly would. In some situations, it doesn&rsquo;t matter if your backpack has grease stains and
         scruffs, but in many other ones, it does.
       </p>
-      <p>
-        This was very much a stick or twist moment for me. I could decide either to keep to my old paradigm and ways of viewing my identity, or I could make a change.
-        
-      </p>
+      <p>This was very much a stick or twist moment for me. I could decide either to keep to my old paradigm and ways of viewing my identity, or I could make a change.</p>
+      <h4 className="BlogSubheading">Deciding to Change</h4>
       <p>
         And so, on March 12, 2022, I decided to start taking my diet and my physique seriously. I know the exact date, because I keep a record in my Apple Notes of all the dates of important changes I
         made that shaped my life. I decided that I would clean up my diet and exercise more. It started out with me buying a scale, reducing the amount of food I ate, and starting to exercise every
@@ -103,23 +100,17 @@ export default function Content() {
       </p>
       <ul className="ul1">
         <li className="li4">Me at my fattest (can include the video Jaden took, but without the sound)</li>
-        <li className="li4">
-          &ldquo;Every day I will be weighing myself on this very scale&rdquo; video
-        </li>
-        <li className="li4">
-          Me doing calisthenics at bellevue park
-        </li>
+        <li className="li4">&ldquo;Every day I will be weighing myself on this very scale&rdquo; video</li>
+        <li className="li4">Me doing calisthenics at bellevue park</li>
         <li className="li4">Me at Muay Thai</li>
       </ul>
-      <p className="p3">
-        Resolution (what I found out):
-      </p>
       <p>
         Now, when I started out with these changes, I knew very well what would happen to my body if I stuck to them: I&rsquo;d get leaner and more muscular. And I did. I haven&rsquo;t quite reached
         my goals in terms of how I want my body to look yet, I still have a lot of room for improvement, but I lost weight, and I look much better than I used to. But the real discovery, the whole
         thing I want to share with you, is how significant of an impact exercising every day and cleaning up my diet had on my psyche, on my mental, on my brain. Once I started doing this, I started
         to live, and feel, completely differently. Let me go over some of the mental benefits I&rsquo;ve experienced.
       </p>
+      <h4 className="BlogSubheading">Sleep</h4>
       <p>
         First of all, my sleep. All my life, I&rsquo;ve struggled with my sleep schedule. I&rsquo;ve always wanted to be the kind of person that consistently gets out of bed early in the morning, and
         goes to sleep at a reasonable time in the evening. And while I managed to keep at it for 7 or 10 days in the past, it&rsquo;s never something I was able to do in a perennial, long-term way. Of
@@ -131,7 +122,6 @@ export default function Content() {
         would finally go to sleep at 2, 3, or 4 in the morning. This makes sense because to sleep well, we have to be exhausted. You don&rsquo;t just fall asleep when you decide to, when you get to
         bed at midnight. You fall asleep when you&rsquo;re really tired and your body needs it. So what would I do? I&rsquo;d decide to sleep at 12 and go to bed, find out I wasn&rsquo;t exhausted,
         exhaust myself by watching YouTube, then sleep. I&rsquo;m sure many of you can relate to the struggle of keeping a decent sleep schedule going.
-        
       </p>
       <p>
         But this completely changed when I started exercising every day. Now that I exercise intensely during the day, I get to bed at 12 and, sure, I still love YouTube and sometimes I still feel
@@ -145,13 +135,13 @@ export default function Content() {
         and, during the day, you were very active physically. Maybe you spent your day hiking or biking or skiing or walking all over a new city or something like that. And then, in the evening, you
         go to bed and you sleep super well. I used to get that when I was a kid on vacation and I would be active all day, and I would really enjoy it. But what I hadn&rsquo;t realized is that you
         don&rsquo;t need to spend your entire day doing physical activity to feel that way at night. An hour of intense physical exercise is enough.
-        
       </p>
       <p>
         And here&rsquo;s the other thing that happens in the evening when you&rsquo;ve had an intense workout during the day. You turn the light off, and you get comfortable in bed, and it feels like
         heaven. Your muscles are sore and tired from the physical exhaustion, and you&rsquo;re about to give them well-deserved, natural, healthy rest, and you get this massive amount of pleasure and
         satisfaction from getting to bed at the moment you need it. Going to bed has always felt great to me, but that feeling is multiplied many times over now that I exercise intensely every day.
       </p>
+      <h4 className="BlogSubheading">Mood & Wellness</h4>
       <p>
         The second benefit I experience is that I feel better, both physically and mentally. Working out is always painful during the actual workout, but when I come home, take a shower, and sit at my
         desk again, I feel amazing. First of all, I&rsquo;m in a much, much better mood after I work out. I&rsquo;m not exactly sure why this happens, but I think it has to do with the fact that when
@@ -160,39 +150,38 @@ export default function Content() {
         exercising, I have a sort of tension, almost like electricity, that builds up inside of me. Kind of like before a thunderstorm, when you can feel the air getting heavy and it&rsquo;s warm and
         humid outside. The workout is like the thunderstorm that finally comes and clears out all the buildup. Once I&rsquo;ve worked out, I get rid of all that tension that was building up inside of
         me, and when I go back to other activities, my body feels, peaceful and relieved. Again, I think this is mostly just caused by the rush of endorphins which I can feel in a very tangible way.
-        
       </p>
       <p>
         I&rsquo;m also prone to anxiety, and once work out, I feel much less anxious. Again, during the most anxious periods of my life, when I struggled with it the most, I never thought that
         exercising could make such a big difference. But it really does, it really helps me be less anxious.
       </p>
+      <h4 className="BlogSubheading">Discipline</h4>
       <p>
         The third benefit I experience is that working out has made me more disciplined. This makes sense for two reasons. First, when you&rsquo;re working out, you subject yourself to pain. When
         I&rsquo;m in the boxing gym and I&rsquo;m following the coach&rsquo;s instructions and doing all I can to one more push up, one more burpee, one more series of kicks, it hurts. My body is
         experiencing discomfort, and it wants to stop. But I push myself. And through that exercise, I get used to facing discomfort and pain. Discipline is a muscle you can train, and a great way to
-        practice being disciplined is by subjecting yourself toa healthy degree of physical pain and discomfort, which exercising provides. When life
-        throws hardship at you, you&rsquo;re much better equipped to face it if you&rsquo;re used to voluntarily subjecting yourself to hardship. It makes you tougher.
-        
+        practice being disciplined is by subjecting yourself toa healthy degree of physical pain and discomfort, which exercising provides. When life throws hardship at you, you&rsquo;re much better
+        equipped to face it if you&rsquo;re used to voluntarily subjecting yourself to hardship. It makes you tougher.
       </p>
       <p>
         Achieving great things, and even simply facing normal life, is hard. Life throws all kinds of pains at us. And in order to face them, we must fight them. But the best way to fight life&rsquo;s
         obstacles is to be used to fighting oneself. You must fight yourself if you want to fight the world. And you probably do want to fight the world. You don&rsquo;t really have a choice anyway.
-        
       </p>
       <p>
         In one of his letters to Lucilius, Seneca wrote that &ldquo;The body should be treated more rigorously that it may not be disobedient to the mind.&rdquo; When I work out, I remind my body
         who&rsquo;s boss. I remind my body who&rsquo;s in charge. This is very uncomfortable because we have this incredibly powerful limbic system and all it wants to do is keep our body pleased and
-        happy. So the exercise of reminding your body who&rsquo;s in charge(which in this case is the more rational, less instinctive part of the brain,
-        aka the prefrontal cortex) builds up qualities that translate to many other situations in life. When life throws stuff at me, I always know that I subject myself to a lot of pain voluntarily,
-        which builds up my willpower and my resilience, making the relative pains of life not as hard to endure. Of course, this doesn&rsquo;t mean that I don&rsquo;t struggle with facing life&rsquo;s
-        difficulties, but I do better with it than if I didn&rsquo;t exercise, that&rsquo;s for sure.
+        happy. So the exercise of reminding your body who&rsquo;s in charge(which in this case is the more rational, less instinctive part of the brain, aka the prefrontal cortex) builds up qualities
+        that translate to many other situations in life. When life throws stuff at me, I always know that I subject myself to a lot of pain voluntarily, which builds up my willpower and my resilience,
+        making the relative pains of life not as hard to endure. Of course, this doesn&rsquo;t mean that I don&rsquo;t struggle with facing life&rsquo;s difficulties, but I do better with it than if I
+        didn&rsquo;t exercise, that&rsquo;s for sure.
       </p>
+      <h4 className="BlogSubheading">Long Term Focus</h4>
       <p>
-        The fourth benefit is that working out has made me more long-term focused,patient, less needy of instant gratification. Fitness is a long term
-        journey. When you decide to get fit, you know you&rsquo;ll have to keep at it for weeks before you see noticeable results. In the same process that I described with discipline, if you practice
-        focusing on the long term, you get better at it. This is massively useful, because most goals in life require long-term focus and tenacity. Fitness gets you practicing both of those.
-        
+        The fourth benefit is that working out has made me more long-term focused,patient, less needy of instant gratification. Fitness is a long term journey. When you decide to get fit, you know
+        you&rsquo;ll have to keep at it for weeks before you see noticeable results. In the same process that I described with discipline, if you practice focusing on the long term, you get better at
+        it. This is massively useful, because most goals in life require long-term focus and tenacity. Fitness gets you practicing both of those.
       </p>
+      <h4 className="BlogSubheading">Productivity</h4>
       <p>
         The next benefit is that working out has made me more productive. First of all, I can focus better. Again, I can&rsquo;t exactly explain why this is, but I&rsquo;m sure many of you watching
         this have experienced this in the past. When I don&rsquo;t work out for a while, I start getting restless and kind of fidgety. The feeling of electricity and energy that builds up inside of me
@@ -206,18 +195,17 @@ export default function Content() {
         was just squandered away.
       </p>
       <p>
-        Working out also gives structure to my day. I make most of my income fromworking as a freelance software developer, and I work from home. This
-        means I have complete control over my hours, and if I want to procrastinate, work at night, and get up at 2 PM every day, I can. But that&rsquo;s not the way I want to live. My ideal schedule
-        is one where I get up early, work during normal, daytime hours, and sleep at night. Knowing that every day, at 6 PM, I go to Muay Thai class, I really try my damn best to get my work done
-        before then, because I know that I have that coming up. It structures my day and helps give me routine, which is massively important.
-        
+        Working out also gives structure to my day. I make most of my income fromworking as a freelance software developer, and I work from home. This means I have complete control over my hours, and
+        if I want to procrastinate, work at night, and get up at 2 PM every day, I can. But that&rsquo;s not the way I want to live. My ideal schedule is one where I get up early, work during normal,
+        daytime hours, and sleep at night. Knowing that every day, at 6 PM, I go to Muay Thai class, I really try my damn best to get my work done before then, because I know that I have that coming
+        up. It structures my day and helps give me routine, which is massively important.
       </p>
+      <h4 className="BlogSubheading">Confidence</h4>
       <p>
         And finally, the last benefit. Working out has made me more confident. I&rsquo;ve always been a very confident person but when I was starting to gain weight, part of my confidence went away. I
         felt like I didn&rsquo;t look as good as I could, and that I wasn&rsquo;t the best version of myself, which inevitably impacted my confidence. I never had a big lack of confidence or anything
-        like that, but the idea that, when seeing someone in shape, that was &ldquo;other people&rdquo;, that &ldquo;other people&rdquo; were in shape and lean and that I wasn&rsquo;t,
-        all because of my own choices and actions or lack thereof, that was unacceptable to me.
-        
+        like that, but the idea that, when seeing someone in shape, that was &ldquo;other people&rdquo;, that &ldquo;other people&rdquo; were in shape and lean and that I wasn&rsquo;t, all because of
+        my own choices and actions or lack thereof, that was unacceptable to me.
       </p>
       <p>
         But the beautiful thing is that the inverse holds true. Now, when I&rsquo;m out and about living my life, whether in a happy moment or a hard one, I always have this underlying foundation of
@@ -228,17 +216,13 @@ export default function Content() {
       <p>
         In life, there are things that matter, and things that don&rsquo;t matter. And there are things that you can control, and things you can&rsquo;t. And one of the problems we face is that many
         of the things that matter in life are also things we don&rsquo;t have much control over. It would be tragic if you got into a car accident or got a bad disease all of a sudden, but you have
-        limited control over that. Well, the great thing about fitness is thatit falls within the intersection of things that matter and that you can
-        control, and that&rsquo;s very empowering. [VENN DIAGRAM].
+        limited control over that. Well, the great thing about fitness is that it falls within the intersection of things that matter and that you can control, and that&rsquo;s very empowering. [VENN
+        DIAGRAM].
       </p>
-      <p className="p5">
-        <br />
-      </p>
-      <p className="p3">Conclusion / benediction</p>
+      <h4 className="BlogSubheading">Looking Ahead</h4>
       <p>
-        Habit&rdquo;. A habit which triggers many other positive changes in your life. Now that I&rsquo;ve experienced what life is like when I exercise every day, it&rsquo;s hard for me to imagine
+        Keystone Habit. A habit which triggers many other positive changes in your life. Now that I&rsquo;ve experienced what life is like when I exercise every day, it&rsquo;s hard for me to imagine
         going back and living life without a daily workout, and I plan on really doing everything in my power to prioritize getting one intense workout in every single day for the foreseeable future.
-        
       </p>
       <p>
         So far in my life, there have only been a few of such life-changing discoveries. But on the rare occasions when I do stumble upon one of such revelations, it does make me wonder. First of all,
@@ -251,7 +235,7 @@ export default function Content() {
         exercising, myself included, we still have to discipline ourselves to get to the gym. Especially after taking a break for a few days and getting back into it, it always feel painful and
         awkward. But it&rsquo;s always 100% worth it, and if you find a sport you enjoy and which gives you intensity, I&rsquo;m confident you can enjoy the same benefits as the ones I&rsquo;ve
         described here. So, give it a try! I doubt you&rsquo;ll regret it.
-      </p> */}
+      </p>
     </div>
   );
 }
