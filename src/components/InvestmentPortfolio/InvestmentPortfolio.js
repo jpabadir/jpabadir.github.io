@@ -44,6 +44,20 @@ export default function InvestmentPortfolio() {
     <div>
       <h2>I like investing in stocks. Here's a breakdown of my portfolio</h2>
       <div className="row justify-content-center mt-5">
+        <div>
+          test
+        </div>
+        <div>
+          test
+        </div>
+        <div>
+          test
+        </div>
+        <div>
+          test
+        </div>
+      </div>
+      <div className="row justify-content-center mt-5">
         <div className="col-lg-6 d-flex justify-content-center">
           <Doughnut data={data} className="PieChart" />
         </div>
