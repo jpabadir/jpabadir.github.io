@@ -9,10 +9,6 @@
   table td {
     display: flex !important;
   }
-
-  table tr {
-    border-bottom: 1px dotted navy;
-  }
   
   table td::before {
     content: attr(label) !important;
