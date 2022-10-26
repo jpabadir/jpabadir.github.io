@@ -34,3 +34,10 @@
   font-size: 20px;
   padding: 10px 0px;
 }
+
+tr:nth-child(even) {
+  background: #ccc;
+}
+tr:nth-child(odd) {
+  background: #fff;
+}
