@@ -72,7 +72,7 @@ export default function InvestmentPortfolio() {
                   <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
                     {row.date}
                   </TableCell>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit', backgroundColor: `${row.orderType === 'BUY' ? 'lightgreen' : 'pink'}` }} label="Title">
                     {row.orderType}
                   </TableCell>
                   <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
