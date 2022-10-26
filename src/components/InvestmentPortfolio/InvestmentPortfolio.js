@@ -84,7 +84,7 @@ export default function InvestmentPortfolio() {
           </Table>
         </TableContainer>
       </div>
-      <div className="row justify-content-center mt-5">
+      {/* <div className="row justify-content-center mt-5">
         <div className="col-lg-6 d-flex justify-content-center">
           <Doughnut data={data} className="PieChart" />
         </div>
@@ -129,7 +129,7 @@ export default function InvestmentPortfolio() {
             </Table>
           </TableContainer>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
