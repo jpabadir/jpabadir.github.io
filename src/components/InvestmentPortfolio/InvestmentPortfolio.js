@@ -49,10 +49,10 @@ export default function InvestmentPortfolio() {
           <Table aria-label="simple table">
             <TableHead>
               <TableRow>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Date</TableCell>
                 <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Security</TableCell>
                 <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Ticker</TableCell>
                 <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Quantity</TableCell>
-                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Date</TableCell>
                 <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>OrderType</TableCell>
                 <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Price</TableCell>
               </TableRow>
@@ -60,6 +60,9 @@ export default function InvestmentPortfolio() {
             <TableBody>
               {orders.map((row) => (
                 <TableRow key={row.ticker} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                    {row.date}
+                  </TableCell>
                   <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
                     {row.security}
                   </TableCell>
@@ -69,14 +72,11 @@ export default function InvestmentPortfolio() {
                   <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
                     {row.quantity}
                   </TableCell>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
-                    {row.date}
-                  </TableCell>
                   <TableCell sx={{ color: 'inherit', fontSize: 'inherit', backgroundColor: `${row.orderType === 'BUY' ? 'lightgreen' : 'pink'}` }} label="Title">
                     {row.orderType}
                   </TableCell>
                   <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
-                    {row.price}
+                    ${parseFloat(row.price).toFixed(2)}
                   </TableCell>
                 </TableRow>
               ))}
