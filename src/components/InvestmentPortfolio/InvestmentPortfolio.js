@@ -43,7 +43,8 @@ export default function InvestmentPortfolio() {
 
   return (
     <div>
-      <h2>I like investing in stocks. Here's a breakdown of my portfolio</h2>
+      <h2>I like investing in stocks. Here's all my orders since July 1, 2020.</h2>
+      <h5>I'll add a full breakdown when I have time to build it.</h5>
       <div className="row justify-content-center mt-5">
         <TableContainer>
           <Table aria-label="simple table">
