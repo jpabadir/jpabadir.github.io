@@ -1,41 +1,314 @@
 [
-  { "quantity": 280, "security": "CARNIVAL CORP COMMON PAIRED STOCK", "ticker": "CCL", "date": "JULY 1, 2020", "orderType": "BOUGHT", "price": "15.52" },
-  { "quantity": 75, "security": "INTEL CORP", "ticker": "INTC", "date": "AUGUST 20, 2020", "orderType": "BOUGHT", "price": "49.20" },
-  { "quantity": 71, "security": "PROSHARES S&P 500 DIVIDEND ARISTOCRATS ETF", "ticker": "NOBL", "date": "AUGUST 20, 2020", "orderType": "BOUGHT", "price": "73.58" },
-  { "quantity": 11, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "OCTOBER 5, 2020 ", "orderType": "BOUGHT", "price": "280.2799" },
-  { "quantity": 200, "security": "CARNIVAL CORP COMMON PAIRED STOCK", "date": "OCTOBER 5, 2020", "orderType": "SOLD", "price": "14.7318" },
-  { "quantity": 40, "security": "INTEL CORP", "ticker": "INTC", "date": "OCTOBER 6, 2020", "orderType": "SOLD", "price": "51.50" },
-  { "quantity": 10, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "OCTOBER 8, 2020", "orderType": "BOUGHT", "price": "280.24" },
-  { "quantity": 35, "security": "INTEL CORP", "ticker": "INTC", "date": "OCTOBER 16, 2020", "orderType": "SOLD", "price": "53.80" },
-  { "quantity": 8, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "OCTOBER 21, 2020", "orderType": "BOUGHT", "price": "290.56" },
-  { "quantity": 10, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "NOVEMBER 2, 2020", "orderType": "BOUGHT", "price": "275.39" },
-  { "quantity": 11, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "SEPTEMBER 21, 2020", "orderType": "BOUGHT", "price": "267.55" },
-  { "quantity": 8, "security": "FACEBOOK INC CL A", "date": "FEBRUARY 22, 2021 ", "orderType": "BOUGHT", "price": "267.24" },
-  { "quantity": 40, "security": "ARK ETF TRUST", "date": "JUNE 22, 2021", "orderType": "BOUGHT", "price": "119.2199" },
-  { "quantity": 6, "security": "VANGUARD S&P 500 ETF", "date": "JANUARY 14, 2022 ", "orderType": "BOUGHT", "price": "432.50" },
-  { "quantity": 184, "security": "TATTOOED CHEF INC CLASS A COMMON STOCK", "date": "JANUARY 25, 2022 ", "orderType": "BOUGHT", "price": "12.726" },
-  { "quantity": 130, "security": "TATTOOED CHEF INC CLASS A COMMON STOCK", "date": "SEPTEMBER 1, 2021 ", "orderType": "BOUGHT", "price": "20.8843" },
-  { "quantity": 30, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "DECEMBER 16, 2021 ", "orderType": "BOUGHT", "price": "151.15" },
-  { "quantity": 10, "security": "VANGUARD S&P 500 ETF", "date": "DECEMBER 20, 2021 ", "orderType": "BOUGHT", "price": "432.7784" },
-  { "quantity": 17, "security": "FACEBOOK INC CL A", "date": "JULY 21, 2021 ", "orderType": "BOUGHT", "price": "336.2173" },
-  { "quantity": 34, "security": "ISHARES CORE S&P SMALL CAP ETF", "date": "JULY 21, 2021 ", "orderType": "BOUGHT", "price": "103.93" },
-  { "quantity": 7, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "JULY 30, 2021 ", "orderType": "BOUGHT", "price": "365.54" },
-  { "quantity": 6, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "OCTOBER 8, 2021 ", "orderType": "BOUGHT", "price": "356.09" },
-  { "quantity": 58, "security": "TATTOOED CHEF INC CLASS A COMMON STOCK", "date": "SEPTEMBER 8, 2021 ", "orderType": "BOUGHT", "price": "24.15" },
-  { "quantity": 8, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "SEPTEMBER 9, 2021 ", "orderType": "BOUGHT", "price": "381.70" },
-  { "quantity": 8, "security": "INVESCO QQQ TR UNIT SER 1", "ticker": "QQQ", "date": "SEPTEMBER 21, 2021 ", "orderType": "BOUGHT", "price": "373.38" },
-  { "quantity": 51, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "APRIL 13, 2022 ", "orderType": "BOUGHT", "price": "48.8684" },
-  { "quantity": 7, "security": "META PLATFORMS INC CLASS A COMMON STOCK", "date": "AUGUST 11, 2022 ", "orderType": "BOUGHT", "price": "168.75" },
-  { "quantity": 44, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "JANUARY 27, 2022 ", "orderType": "BOUGHT", "price": "54.5999" },
-  { "quantity": 6, "security": "VANGUARD S&P 500 ETF", "date": "JANUARY 28, 2022 ", "orderType": "BOUGHT", "price": "403.4396" },
-  { "quantity": 7, "security": "ARK ETF TRUST", "date": "FEBRUARY 2, 2022", "orderType": "BOUGHT", "price": "74.27" },
-  { "quantity": 2, "security": "TESLA INC COMMON STOCK", "date": "FEBRUARY 2, 2022 ", "orderType": "BOUGHT", "price": "919" },
-  { "quantity": 56, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "JULY 11, 2022 ", "orderType": "BOUGHT", "price": "27.319" },
-  { "quantity": 2, "security": "TESLA INC COMMON STOCK", "date": "JUNE 13, 2022 ", "orderType": "BOUGHT", "price": "737.5699" },
-  { "quantity": 8, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "JUNE 13, 2022 ", "orderType": "BOUGHT", "price": "31.939" },
-  { "quantity": 15, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "JUNE 23, 2022 ", "orderType": "BOUGHT", "price": "24.3399" },
-  { "quantity": 6, "security": "VANGUARD S&P 500 ETF", "date": "MARCH 9, 2022 ", "orderType": "BOUGHT", "price": "388.67" },
-  { "quantity": 66, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "MAY 10, 2022 ", "orderType": "BOUGHT", "price": "35.2599" },
-  { "quantity": 12, "security": "TESLA INC COMMON STOCK", "date": "OCTOBER 14, 2022 ", "orderType": "BOUGHT", "price": "215.79" },
-  { "quantity": 51, "security": "PROSHARES TRUST ULTRAPRO QQQ", "date": "SEPTEMBER 14, 2022 ", "orderType": "BOUGHT", "price": "30.8387" }
+  {
+      "quantity": 280,
+      "security": "CARNIVAL CORP COMMON PAIRED STOCK",
+      "ticker": "CCL",
+      "date": "JULY 1, 2020",
+      "orderType": "BOUGHT",
+      "price": "15.52"
+  },
+  {
+      "quantity": 75,
+      "security": "INTEL CORP",
+      "ticker": "INTC",
+      "date": "AUGUST 20, 2020",
+      "orderType": "BOUGHT",
+      "price": "49.20"
+  },
+  {
+      "quantity": 71,
+      "security": "PROSHARES S&P 500 DIVIDEND ARISTOCRATS ETF",
+      "ticker": "NOBL",
+      "date": "AUGUST 20, 2020",
+      "orderType": "BOUGHT",
+      "price": "73.58"
+  },
+  {
+      "quantity": 11,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "SEPTEMBER 21, 2020",
+      "orderType": "BOUGHT",
+      "price": "267.55"
+  },
+  {
+      "quantity": 200,
+      "security": "CARNIVAL CORP COMMON PAIRED STOCK",
+      "ticker": "CCL",
+      "date": "OCTOBER 5, 2020",
+      "orderType": "SOLD",
+      "price": "14.7318"
+  },
+  {
+      "quantity": 11,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "OCTOBER 5, 2020",
+      "orderType": "BOUGHT",
+      "price": "280.2799"
+  },
+  {
+      "quantity": 40,
+      "security": "INTEL CORP",
+      "ticker": "INTC",
+      "date": "OCTOBER 6, 2020",
+      "orderType": "SOLD",
+      "price": "51.50"
+  },
+  {
+      "quantity": 10,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "OCTOBER 8, 2020",
+      "orderType": "BOUGHT",
+      "price": "280.24"
+  },
+  {
+      "quantity": 35,
+      "security": "INTEL CORP",
+      "ticker": "INTC",
+      "date": "OCTOBER 16, 2020",
+      "orderType": "SOLD",
+      "price": "53.80"
+  },
+  {
+      "quantity": 8,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "OCTOBER 21, 2020",
+      "orderType": "BOUGHT",
+      "price": "290.56"
+  },
+  {
+      "quantity": 10,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "NOVEMBER 2, 2020",
+      "orderType": "BOUGHT",
+      "price": "275.39"
+  },
+  {
+      "quantity": 8,
+      "security": "FACEBOOK INC CL A",
+      "ticker": "FB",
+      "date": "FEBRUARY 22, 2021",
+      "orderType": "BOUGHT",
+      "price": "267.24"
+  },
+  {
+      "quantity": 40,
+      "security": "ARK ETF TRUST",
+      "ticker": "ARKK",
+      "date": "JUNE 22, 2021",
+      "orderType": "BOUGHT",
+      "price": "119.2199"
+  },
+  {
+      "quantity": 17,
+      "security": "FACEBOOK INC CL A",
+      "ticker": "FB",
+      "date": "JULY 21, 2021",
+      "orderType": "BOUGHT",
+      "price": "336.2173"
+  },
+  {
+      "quantity": 34,
+      "security": "ISHARES CORE S&P SMALL CAP ETF",
+      "ticker": "IJR",
+      "date": "JULY 21, 2021",
+      "orderType": "BOUGHT",
+      "price": "103.93"
+  },
+  {
+      "quantity": 7,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "JULY 30, 2021",
+      "orderType": "BOUGHT",
+      "price": "365.54"
+  },
+  {
+      "quantity": 130,
+      "security": "TATTOOED CHEF INC CLASS A COMMON STOCK",
+      "ticker": "TTCF",
+      "date": "SEPTEMBER 1, 2021",
+      "orderType": "BOUGHT",
+      "price": "20.8843"
+  },
+  {
+      "quantity": 58,
+      "security": "TATTOOED CHEF INC CLASS A COMMON STOCK",
+      "ticker": "TTCF",
+      "date": "SEPTEMBER 8, 2021",
+      "orderType": "BOUGHT",
+      "price": "24.15"
+  },
+  {
+      "quantity": 8,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "SEPTEMBER 9, 2021",
+      "orderType": "BOUGHT",
+      "price": "381.70"
+  },
+  {
+      "quantity": 8,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "SEPTEMBER 21, 2021",
+      "orderType": "BOUGHT",
+      "price": "373.38"
+  },
+  {
+      "quantity": 6,
+      "security": "INVESCO QQQ TR UNIT SER 1",
+      "ticker": "QQQ",
+      "date": "OCTOBER 8, 2021",
+      "orderType": "BOUGHT",
+      "price": "356.09"
+  },
+  {
+      "quantity": 30,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "DECEMBER 16, 2021",
+      "orderType": "BOUGHT",
+      "price": "151.15"
+  },
+  {
+      "quantity": 10,
+      "security": "VANGUARD S&P 500 ETF",
+      "ticker": "VOO",
+      "date": "DECEMBER 20, 2021",
+      "orderType": "BOUGHT",
+      "price": "432.7784"
+  },
+  {
+      "quantity": 6,
+      "security": "VANGUARD S&P 500 ETF",
+      "ticker": "VOO",
+      "date": "JANUARY 14, 2022",
+      "orderType": "BOUGHT",
+      "price": "432.50"
+  },
+  {
+      "quantity": 184,
+      "security": "TATTOOED CHEF INC CLASS A COMMON STOCK",
+      "ticker": "TTCF",
+      "date": "JANUARY 25, 2022",
+      "orderType": "BOUGHT",
+      "price": "12.726"
+  },
+  {
+      "quantity": 44,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "JANUARY 27, 2022",
+      "orderType": "BOUGHT",
+      "price": "54.5999"
+  },
+  {
+      "quantity": 6,
+      "security": "VANGUARD S&P 500 ETF",
+      "ticker": "VOO",
+      "date": "JANUARY 28, 2022",
+      "orderType": "BOUGHT",
+      "price": "403.4396"
+  },
+  {
+      "quantity": 7,
+      "security": "ARK ETF TRUST",
+      "ticker": "ARKK",
+      "date": "FEBRUARY 2, 2022",
+      "orderType": "BOUGHT",
+      "price": "74.27"
+  },
+  {
+      "quantity": 2,
+      "security": "TESLA INC COMMON STOCK",
+      "ticker": "TSLA",
+      "date": "FEBRUARY 2, 2022",
+      "orderType": "BOUGHT",
+      "price": "919"
+  },
+  {
+      "quantity": 6,
+      "security": "VANGUARD S&P 500 ETF",
+      "ticker": "VOO",
+      "date": "MARCH 9, 2022",
+      "orderType": "BOUGHT",
+      "price": "388.67"
+  },
+  {
+      "quantity": 51,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "APRIL 13, 2022",
+      "orderType": "BOUGHT",
+      "price": "48.8684"
+  },
+  {
+      "quantity": 66,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "MAY 10, 2022",
+      "orderType": "BOUGHT",
+      "price": "35.2599"
+  },
+  {
+      "quantity": 2,
+      "security": "TESLA INC COMMON STOCK",
+      "ticker": "TSLA",
+      "date": "JUNE 13, 2022",
+      "orderType": "BOUGHT",
+      "price": "737.5699"
+  },
+  {
+      "quantity": 8,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "JUNE 13, 2022",
+      "orderType": "BOUGHT",
+      "price": "31.939"
+  },
+  {
+      "quantity": 15,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "JUNE 23, 2022",
+      "orderType": "BOUGHT",
+      "price": "24.3399"
+  },
+  {
+      "quantity": 56,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "JULY 11, 2022",
+      "orderType": "BOUGHT",
+      "price": "27.319"
+  },
+  {
+      "quantity": 7,
+      "security": "META PLATFORMS INC CLASS A COMMON STOCK",
+      "ticker": "META",
+      "date": "AUGUST 11, 2022",
+      "orderType": "BOUGHT",
+      "price": "168.75"
+  },
+  {
+      "quantity": 51,
+      "security": "PROSHARES TRUST ULTRAPRO QQQ",
+      "ticker": "TQQQ",
+      "date": "SEPTEMBER 14, 2022",
+      "orderType": "BOUGHT",
+      "price": "30.8387"
+  },
+  {
+      "quantity": 12,
+      "security": "TESLA INC COMMON STOCK",
+      "ticker": "TSLA",
+      "date": "OCTOBER 14, 2022",
+      "orderType": "BOUGHT",
+      "price": "215.79"
+  }
 ]

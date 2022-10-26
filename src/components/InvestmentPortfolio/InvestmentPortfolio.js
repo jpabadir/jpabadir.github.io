@@ -7,6 +7,7 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import orders from './orders.json';
 ChartJS.register(ArcElement, PointElement, LineElement, Tooltip, Legend, CategoryScale, LinearScale);
 
 export default function InvestmentPortfolio() {
@@ -44,18 +45,44 @@ export default function InvestmentPortfolio() {
     <div>
       <h2>I like investing in stocks. Here's a breakdown of my portfolio</h2>
       <div className="row justify-content-center mt-5">
-        <div>
-          test
-        </div>
-        <div>
-          test
-        </div>
-        <div>
-          test
-        </div>
-        <div>
-          test
-        </div>
+        <TableContainer>
+          <Table aria-label="simple table">
+            <TableHead>
+              <TableRow>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Security</TableCell>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Ticker</TableCell>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Quantity</TableCell>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Date</TableCell>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>OrderType</TableCell>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Price</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {orders.map((row) => (
+                <TableRow key={row.ticker} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                    {row.security}
+                  </TableCell>
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                    {row.ticker}
+                  </TableCell>
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                    {row.quantity}
+                  </TableCell>
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                    {row.date}
+                  </TableCell>
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                    {row.orderType}
+                  </TableCell>
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                    {row.price}
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
       </div>
       <div className="row justify-content-center mt-5">
         <div className="col-lg-6 d-flex justify-content-center">
