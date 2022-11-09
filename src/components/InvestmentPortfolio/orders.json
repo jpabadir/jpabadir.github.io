@@ -3,6 +3,14 @@
         "quantity": 12,
         "security": "TESLA INC COMMON STOCK",
         "ticker": "TSLA",
+        "date": "NOVEMBER 9, 2022",
+        "orderType": "BUY",
+        "price": "194.73"
+    },
+    {
+        "quantity": 12,
+        "security": "TESLA INC COMMON STOCK",
+        "ticker": "TSLA",
         "date": "OCTOBER 14, 2022",
         "orderType": "BUY",
         "price": "215.79"
