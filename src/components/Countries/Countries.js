@@ -1,15 +1,20 @@
 import { useEffect, useState } from 'react';
+import Map from './Countries.svg'
 
 export default function Countries() {
   const [loaded, setLoaded] = useState(false);
 
+  // Get Data
   useEffect(() => {
+    //var svg = document.createElementNS('https://www.gstatic.com/charts/loader.js')
+    //svg.addEventListener('load', () => setLoaded(true))
     const scriptTag = document.createElement('script');
     scriptTag.src = 'https://www.gstatic.com/charts/loader.js';
     scriptTag.addEventListener('load', () => setLoaded(true));
     document.body.appendChild(scriptTag);
   }, []);
 
+  // Render Data
   useEffect(() => {
     if (!loaded) return;
 
@@ -52,7 +57,8 @@ export default function Countries() {
 
   return (
     <div>
-      <div id="regions_div" />
+      <div id='regions_div' />
+      <img src={Map} />
       Layovers don't count, and neither does merely driving / passing through a country on one's way to another.
     </div>
   );
