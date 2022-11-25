@@ -62,22 +62,22 @@ export default function InvestmentPortfolio() {
             <TableBody>
               {orders.map((row) => (
                 <TableRow key={row.ticker} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Date">
                     {row.date}
                   </TableCell>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Security">
                     {row.security}
                   </TableCell>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Ticker">
                     {row.ticker}
                   </TableCell>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Quantity">
                     {row.quantity}
                   </TableCell>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit', backgroundColor: `${row.orderType === 'BUY' ? 'lightgreen' : 'pink'}` }} label="Title">
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit', backgroundColor: `${row.orderType === 'BUY' ? 'lightgreen' : 'pink'}` }} label="Order Type">
                     {row.orderType}
                   </TableCell>
-                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Title">
+                  <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Price">
                     ${parseFloat(row.price).toFixed(2)}
                   </TableCell>
                 </TableRow>
