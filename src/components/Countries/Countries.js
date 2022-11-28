@@ -1,10 +1,9 @@
-import { useEffect, useState } from 'react';
-import Map from './Countries.svg'
+import { useEffect, useState } from "react";
+import Map from "./Countries.svg";
 
 export default function Countries() {
-  //const [loaded, setLoaded] = useState(false);
+  // const [loaded, setLoaded] = useState(false);
 
-  // // Get Data
   // useEffect(() => {
   //   const scriptTag = document.createElement('script');
   //   scriptTag.src = 'https://www.gstatic.com/charts/loader.js';
@@ -12,7 +11,6 @@ export default function Countries() {
   //   document.body.appendChild(scriptTag);
   // }, []);
 
-  // // Render Data
   // useEffect(() => {
   //   if (!loaded) return;
 
@@ -55,9 +53,14 @@ export default function Countries() {
 
   return (
     <div>
-      <div/>
-      <img src={Map} alt="SVG as an image" style={{"width": '100%', "height": "100%"}}/>
-      Layovers don't count, and neither does merely driving / passing through a country on one's way to another.
+      {/* <div id="regions_div" /> */}
+      <img
+        src={Map}
+        alt="Sorry, an error with loading an SVG file has occurred."
+        style={{ width: "100%", height: "100%" }}
+      />
+      Layovers don't count, and neither does merely driving / passing through a
+      country on one's way to another.
     </div>
   );
 }
