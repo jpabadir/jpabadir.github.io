@@ -13,7 +13,6 @@ import { linkify } from './helpers';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import InvestmentPortfolio from './components/InvestmentPortfolio/InvestmentPortfolio';
 import Newsletter from './components/Newsletter/Newsletter';
-import BookNotes from './components/Books/Book-Notes';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -25,8 +24,7 @@ ReactDOM.render(
         {blogsData.map((blog) => (
           <Route key={blog.title} path={`articles/${linkify(blog.title)}`} element={<Article blog={blog} />} />
         ))}
-        <Route path="books-i-read" element={<Books />} />
-        <Route path="book-notes/*" element={<BookNotes />} /> 
+        <Route path="books-i-read" element={<Books />} /> 
         <Route path="countries" element={<Countries />} />
         <Route path="investment-portfolio" element={<InvestmentPortfolio />} />
         <Route path="newsletter" element={<Newsletter />} />
