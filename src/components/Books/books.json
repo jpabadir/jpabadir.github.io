@@ -1,5 +1,5 @@
 [
-  { "author": "Vaclav Smil", "title": "How the World Really Works", "dateStarted": "June 2022", "link" : "https://www.jpabadir.com", "noteName" : "Note Link" },
+  { "author": "Vaclav Smil", "title": "How the World Really Works", "dateStarted": "June 2022", "link" : "/book-notes/howtheworldreallyworks", "noteName" : "Note Link" },
   { "author": "Marcus Aurelius", "title": "Meditations", "dateStarted": "November 2021", "link" : "https://www.jpabadir.com" },
   { "author": "Yuval Noah Harari", "title": "Sapiens", "dateStarted": "December 2020", "dateFinished": "June 2022", "link" : "https://www.jpabadir.com", "noteName" : "" },
   { "author": "George Orwell", "title": "1984", "dateStarted": "March 2020", "dateFinished": "December 2020", "link" : "https://www.jpabadir.com", "noteName" : "" },
