@@ -19,6 +19,7 @@ export default function Books() {
               <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Title</TableCell>
               <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Date Started</TableCell>
               <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Date Finished</TableCell>
+              <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Notes</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -35,6 +36,9 @@ export default function Books() {
                 </TableCell>
                 <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Date Finished">
                   {row.dateFinished}
+                </TableCell>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Notes">
+                  <a href={row.link}>{row.noteName}</a>
                 </TableCell>
               </TableRow>
             ))}
