@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Map from "./Countries.svg";
 
 export default function Countries() {
@@ -56,7 +56,7 @@ export default function Countries() {
       {/* <div id="regions_div" /> */}
       <img
         src={Map}
-        alt="Sorry, an error with loading an SVG file has occurred."
+        alt="A map of the countries I've been to"
         style={{ width: "100%", height: "100%" }}
       />
       Layovers don't count, and neither does merely driving / passing through a
