@@ -7,12 +7,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Blog from './components/Blog/Blog';
 import Books from './components/Books/Books';
 import blogsData from './data/blogs/blogs-headers.json';
+import booksData from './booknotes/booknotes-headers.json';
 import Article from './components/Article/Article';
 import Countries from './components/Countries/Countries';
 import { linkify } from './helpers';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import InvestmentPortfolio from './components/InvestmentPortfolio/InvestmentPortfolio';
 import Newsletter from './components/Newsletter/Newsletter';
+import BookNotes from './components/Books/Book-Notes';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -25,6 +27,9 @@ ReactDOM.render(
           <Route key={blog.title} path={`articles/${linkify(blog.title)}`} element={<Article blog={blog} />} />
         ))}
         <Route path="books-i-read" element={<Books />} /> 
+        {booksData.map((booknotes) => (
+          <Route key={booknotes.title} path={`book-notes/${linkify(booknotes.title)}`} element={<BookNotes booknotes={booknotes} />} />
+        ))}
         <Route path="countries" element={<Countries />} />
         <Route path="investment-portfolio" element={<InvestmentPortfolio />} />
         <Route path="newsletter" element={<Newsletter />} />

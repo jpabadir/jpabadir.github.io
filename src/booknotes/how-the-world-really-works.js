@@ -1,3 +1,3 @@
 export default function HowTheWorldReallyWorks() {
-  return <div>Hello</div>;
+  return <div>JS file contents</div>;
 }

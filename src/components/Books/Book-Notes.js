@@ -1,14 +1,22 @@
-import { NavLink } from 'react-router-dom';
-import BooksData from '../..book notes/booknotes-headers.json';
 import './Books.css';
+import { linkify } from '../../helpers';
 
-export default function Book() {
-
+export default function BookNotes(props) {
+  const ComponentToRender = require('../../booknotes/' + linkify(props.booknotes.title)).default;
   return (
-    <div className="Book">
-      {BooksData.map((Book) => (
-          <NavLink className="Link BookLink container my-2" to={Book.title.replace(/\s+/g, '-').toLowerCase()}> {/** Link to Webpage **/}</NavLink>
-      ))}
-    </div>
+    <div className="BookNotes">
+        <div className="text-left mb-4">
+          <h1>{props.booknotes.title}</h1> {/* Title in /booknotes */}
+          <h2 className="Subtitle">{props.booknotes.subtitle}</h2> {/* Subtitle in /booknotes */}
+          <div className="Date">{new Date(props.booknotes.publishDate).toDateString()}</div> {/* Date in /booknotes */}
+        </div>
+        <div className="d-flex align-items-center mb-4 flex-column">
+          <div className="ArticleImage">
+            <img className="ArticleImage" src={props.booknotes.image} alt={props.booknotes.title} /> {/* Image in /booknotes */}
+            <p className="ImageCaption">{props.booknotes.imageCaption}</p> {/* Caption in /booknotes */}
+          </div>
+        </div>
+        <ComponentToRender />
+      </div>
   );
 }
