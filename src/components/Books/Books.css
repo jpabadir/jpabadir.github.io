@@ -11,17 +11,17 @@
   border-radius: 10px;
 }
 
-.Subtitle {
+.BookNotesSubtitle {
   opacity: 0.8;
   font-size: 18px;
 }
 
-.Date {
+.BookNotesDate {
   opacity: 0.6;
   font-size: 15px;
 }
 
-.ImageCaption {
+.BookNotesImageCaption {
   opacity: 0.8;
 }
 

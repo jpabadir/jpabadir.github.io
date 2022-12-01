@@ -11,15 +11,15 @@ export default function Blog() {
     <div className="Blog">
       {blogsData.map((blog) => (
         <div key={blog.title} onMouseEnter={toggleScaleThumbnail} onMouseLeave={toggleScaleThumbnail}>
-          <NavLink className="Link BlogLink container my-2" to={blog.title.replace(/\s+/g, '-').toLowerCase()}> {/** Link to Webpage **/}
+          <NavLink className="Link BlogLink container my-2" to={blog.title.replace(/\s+/g, '-').toLowerCase()}>
             <div className="row">
               <div className="col-lg-6">
                 <div className="BlogThumbnailParent">
-                  <img className="BlogThumbnail" src={blog.image} alt={blog.title} /> {/** Display image on Article Section **/}
+                  <img className="BlogThumbnail" src={blog.image} alt={blog.title} />
                 </div>
               </div>
               <div className="col-lg-6 d-flex align-items-center justify-content-center">
-                <div className="text-center">{blog.title}</div> {/** Display Title on Article Section **/}
+                <div className="text-center">{blog.title}</div> 
               </div>
             </div>
           </NavLink>
