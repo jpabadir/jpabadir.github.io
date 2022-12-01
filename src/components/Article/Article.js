@@ -15,7 +15,7 @@ export default function Article(props) {
         <div className="d-flex align-items-center mb-4 flex-column">
           <div className="ArticleImage">
             <img className="ArticleImage" src={props.blog.image} alt={props.blog.title} />
-            <p className="ImageCaption">{props.blog.imageCaption}</p> 
+            <p className="ImageCaption">{props.blog.imageCaption}</p>{/**test */}
           </div>
         </div>
         <ComponentToRender />
