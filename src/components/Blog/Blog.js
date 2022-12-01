@@ -19,7 +19,7 @@ export default function Blog() {
                 </div>
               </div>
               <div className="col-lg-6 d-flex align-items-center justify-content-center">
-                <div className="text-center">{blog.title}</div> {/**test */}
+                <div className="text-center">{blog.title}</div>
               </div>
             </div>
           </NavLink>
