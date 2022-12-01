@@ -1,3 +1,30 @@
+.BookNotes {
+  text-align: justify;
+  justify-content: center;
+  display: flex;
+}
+
+.BookNotesImage {
+  width: 100%;
+  /* aspect-ratio: 16 / 9; */
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.BookNotesSubtitle {
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.BookNotesDate {
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.BookNotesImageCaption {
+  opacity: 0.8;
+}
+
 .Testing {
   color: #cccccc;
 }

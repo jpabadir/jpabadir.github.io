@@ -6,6 +6,7 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import { Link } from 'react-router-dom';
 import './Books.css';
 
 export default function Books() {
@@ -19,6 +20,7 @@ export default function Books() {
               <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Title</TableCell>
               <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Date Started</TableCell>
               <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Date Finished</TableCell>
+              <TableCell sx={{ color: 'inherit', fontSize: 'inherit', fontWeight: 'bold' }}>Notes</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -35,6 +37,9 @@ export default function Books() {
                 </TableCell>
                 <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Date Finished">
                   {row.dateFinished}
+                </TableCell>
+                <TableCell sx={{ color: 'inherit', fontSize: 'inherit' }} label="Notes">
+                  <Link to={row.link}>{row.noteName}</Link>
                 </TableCell>
               </TableRow>
             ))}
