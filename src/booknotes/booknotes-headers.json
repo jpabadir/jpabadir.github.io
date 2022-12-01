@@ -13,5 +13,13 @@
     "publishDate": "2022-10-10T00:00:00",
     "image": "/assets/blueshorts.jpeg",
     "imageCaption": "Caption 2"
+  },
+
+  {
+    "title": "Sapiens",
+    "subtitle": "Subtitle 3",
+    "publishDate": "2022-10-10T00:00:00",
+    "image": "/assets/blueshorts.jpeg",
+    "imageCaption": "Caption 3"
   }
 ]

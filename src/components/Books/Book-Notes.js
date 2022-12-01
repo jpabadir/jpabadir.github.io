@@ -11,8 +11,8 @@ export default function BookNotes(props) {
           <div className="Date">{new Date(props.booknotes.publishDate).toDateString()}</div> {/* Date in /booknotes */}
         </div>
         <div className="d-flex align-items-center mb-4 flex-column">
-          <div className="ArticleImage">
-            <img className="ArticleImage" src={props.booknotes.image} alt={props.booknotes.title} /> {/* Image in /booknotes */}
+          <div className="BookNotesImage">
+            <img className="BookNotesImage" src={props.booknotes.image} alt={props.booknotes.title} /> {/* Image in /booknotes */}
             <p className="ImageCaption">{props.booknotes.imageCaption}</p> {/* Caption in /booknotes */}
           </div>
         </div>
