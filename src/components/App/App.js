@@ -13,6 +13,7 @@ function App() {
     { name: "Countries I've been to", link: 'countries' },
     { name: 'Investment Portfolio' },
     { name: 'Newsletter' },
+    { name: 'AI Art' },
   ];
   return (
     <div className="App">
@@ -31,7 +32,7 @@ function App() {
         })}
       </div>
       <div className="d-flex justify-content-center">
-        <div className="Content">
+        <div className="Content" id="Content">
           <Outlet />
         </div>
       </div>
