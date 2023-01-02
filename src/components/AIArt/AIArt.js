@@ -21,6 +21,7 @@ export default function AIArt() {
   }
 
   function hideEasterEgg() {
+    if(!document.getElementById('easterEgg')) return
     document.getElementById('easterEgg').style.opacity = 0;
   }
 
