@@ -34,7 +34,7 @@ export default function AIArt() {
         <input type="range" min="20" max="1000" value={userSetMaxWidth} className="slider" id="myRange" onChange={handleSliderChange} style={{ scale: '1.5' }} />{<div style={{ opacity: 0, transition: '1000ms' }} id="easterEgg">Good job, you discovered a functionality without it being explicitly labelled. You should be a software engineer.</div>}
       </div>
       {Array.from(Array(155).keys()).map(number => {
-        const url = `/assets/ai-art/AI-Art-image-${number}.png`
+        const url = `/assets/ai-art/AI-Art-image-${number}.png.webp`
 
         return <span key={url} onMouseEnter={toggleScaleThumbnail} onMouseLeave={toggleScaleThumbnail} style={{ overflow: 'hidden', display: 'inline-block', borderRadius: '15px' }} className="p-2">
           <a target="_blank" href={url}>
