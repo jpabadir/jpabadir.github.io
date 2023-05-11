@@ -14,6 +14,7 @@ function App() {
     { name: 'Investment Portfolio' },
     { name: 'Newsletter' },
     { name: 'AI Art' },
+    { name: 'All the stuff I launched' },
   ];
   return (
     <div className="App">
