@@ -7,14 +7,15 @@ import Footer from '../Footer/Footer';
 function App() {
   const navItems = [
     { name: 'Home', link: '/' },
-    { name: 'YouTube', link: 'https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw' },
-    { name: 'Articles' },
-    { name: "Books I've read", link: 'books-i-read' },
-    { name: "Countries I've been to", link: 'countries' },
-    { name: 'Investment Portfolio' },
-    { name: 'Newsletter' },
-    { name: 'AI Art' },
-    { name: 'All the stuff I launched' },
+    // { name: 'YouTube', link: 'https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw' },
+    // { name: 'Articles' },
+    // { name: "Books I've read", link: 'books-i-read' },
+    // { name: "Countries I've been to", link: 'countries' },
+    // { name: 'Investment Portfolio' },
+    // { name: 'Newsletter' },
+    // { name: 'AI Art' },
+    // { name: 'All the stuff I launched' },
+    // { name: "What I'm listening to" },
   ];
   return (
     <div className="App">

@@ -1,26 +1,54 @@
-import { useLayoutEffect, useState } from 'react';
-import './Home.css';
+import { useLayoutEffect, useState } from "react";
+import "./Home.css";
+import { Outlet, NavLink } from "react-router-dom";
+import { linkify } from "../../helpers";
 
 export default function Home() {
-  const [videoHeight, setVideoHeight] = useState(300);
-
-  useLayoutEffect(() => {
-    function updateVideoHeight() {
-      setVideoHeight(document.getElementById('myVideo').offsetWidth / 1.78);
-    }
-    window.addEventListener('resize', updateVideoHeight);
-    updateVideoHeight();
-    return () => window.removeEventListener('resize', updateVideoHeight);
-  }, []);
+  const navItems = [
+    {
+      name: "YouTube",
+      link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
+    },
+    { name: "Articles" },
+    { name: "Books I've read", link: "books-i-read" },
+    { name: "Countries I've been to", link: "countries" },
+    { name: "Investment Portfolio" },
+    { name: "Newsletter" },
+    { name: "AI Art" },
+    { name: "All the stuff I launched" },
+    { name: "What I'm listening to", link: "what-im-listening-to" },
+  ];
 
   return (
     <div className="container">
       <div className="row">
-        <div className="col-12 col-lg-6 d-flex flex-column justify-content-center">
-          <p>My name is JP. I'm a software engineer, and I also like to do other stuff, like invest in stocks and create content.</p>
-        </div>
-        <div className="col-12 col-lg-6">
-          <iframe
+        <div className="col">
+          {navItems.map((item) => {
+            return (
+              <div>
+                {item.link && item.link.includes("https") ? (
+                  <a
+                    key={item.name}
+                    target="_blank"
+                    rel="noopener"
+                    className="Link NavLink"
+                    href={item.link}
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <NavLink
+                    key={item.name}
+                    to={item.link ? item.link : linkify(item.name)}
+                    className="Link NavLink"
+                  >
+                    {item.name}
+                  </NavLink>
+                )}
+              </div>
+            );
+          })}
+          {/* <iframe
             width="100%"
             height={videoHeight}
             src="https://www.youtube-nocookie.com/embed/f-lWdbBqrXk?controls=1"
@@ -30,7 +58,7 @@ export default function Home() {
             allowFullScreen
             id="myVideo"
             className="StaticShadow"
-          />
+          /> */}
         </div>
       </div>
     </div>
