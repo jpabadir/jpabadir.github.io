@@ -54,7 +54,7 @@ export default function WhatImListeningTo() {
       <br />
       <div>
         In consolation, here's a gimmicky JS thing that shows how long it's been
-        since I've been maintaining that playlist which I made with ChatGPT.
+        since I've been maintaining that playlist.
       </div>
       <DateTimeSince />
     </div>
