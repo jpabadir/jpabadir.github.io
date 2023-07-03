@@ -1,4 +1,6 @@
 [
+  { "author": "Lewis Carroll", "title": "Alice's Adventures in Wonderland", "dateStarted": "June 2023" },
+  { "author": "Helene Lambert", "title": "Bouche dé-cousue", "dateStarted": "June 2023", "dateFinished": "June 2023"},
   { "author": "Vaclav Smil", "title": "How the World Really Works", "dateStarted": "June 2022" },
   { "author": "Marcus Aurelius", "title": "Meditations", "dateStarted": "November 2021" },
   { "author": "Yuval Noah Harari", "title": "Sapiens", "dateStarted": "December 2020", "dateFinished": "June 2022" },
