@@ -5,15 +5,15 @@ import { linkify } from "../../helpers";
 
 export default function Home() {
   const navItems = [
-    {
-      name: "YouTube",
-      link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
-    },
+    // {
+    //   name: "YouTube",
+    //   link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
+    // },
     // { name: "Articles" },
     { name: "Books I've read", link: "books-i-read" },
-    { name: "Countries I've been to", link: "countries" },
-    { name: "Investment Portfolio" },
-    { name: "Newsletter" },
+    // { name: "Countries I've been to", link: "countries" },
+    // { name: "Investment Portfolio" },
+    // { name: "Newsletter" },
     { name: "AI Art" },
     // { name: "All the stuff I launched" },
     { name: "What I'm listening to", link: "what-im-listening-to" },
