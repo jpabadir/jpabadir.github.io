@@ -17,6 +17,8 @@ export default function Home() {
     { name: "AI Art" },
     // { name: "All the stuff I launched" },
     { name: "What I'm listening to", link: "what-im-listening-to" },
+    { name: "Github", link: "https://github.com/jpabadir" },
+    { name: "LinkedIn", link: "https://linkedin.com/in/jpabadir" },
   ];
 
   return (
