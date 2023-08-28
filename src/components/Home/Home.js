@@ -15,7 +15,7 @@ export default function Home() {
     { name: "Investment Portfolio" },
     { name: "Newsletter" },
     { name: "AI Art" },
-    { name: "All the stuff I launched" },
+    // { name: "All the stuff I launched" },
     { name: "What I'm listening to", link: "what-im-listening-to" },
   ];
 
