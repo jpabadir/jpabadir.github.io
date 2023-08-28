@@ -11,6 +11,10 @@ import "./Books.css";
 export default function Books() {
   return (
     <div>
+      <div style={{ marginBottom: "15px" }}>
+        Only books read from beginning to end count. We've all started books and
+        never finished them.
+      </div>
       <TableContainer>
         <Table aria-label="simple table">
           <TableHead>
