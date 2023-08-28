@@ -9,7 +9,7 @@ export default function Home() {
       name: "YouTube",
       link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
     },
-    { name: "Articles" },
+    // { name: "Articles" },
     { name: "Books I've read", link: "books-i-read" },
     { name: "Countries I've been to", link: "countries" },
     { name: "Investment Portfolio" },
