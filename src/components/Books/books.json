@@ -11,7 +11,7 @@
     "dateFinished": "August 2023"
   },
   {
-    "author": "Helene Lambert",
+    "author": "Hélène Lambert",
     "title": "Bouche dé-cousue",
     "dateStarted": "June 2023",
     "dateFinished": "June 2023"
@@ -42,6 +42,12 @@
   {
     "author": "David Chilton",
     "title": "The Wealthy Barber",
+    "dateStarted": "May 2018",
+    "dateFinished": "August 2018 "
+  },
+  {
+    "author": "Robert Kiyosaki",
+    "title": "Rich Dad Poor Dad",
     "dateStarted": "May 2018",
     "dateFinished": "August 2018 "
   },
@@ -80,5 +86,17 @@
     "title": "The Road",
     "dateStarted": "2015",
     "dateFinished": "2016"
+  },
+  {
+    "author": "Robert Muchamore",
+    "title": "Most of the CHERUB series",
+    "dateStarted": "2012",
+    "dateFinished": "2015"
+  },
+  {
+    "author": "Eoin Colfer",
+    "title": "Most of the Artemis Fowl series",
+    "dateStarted": "2009",
+    "dateFinished": "2012"
   }
 ]
