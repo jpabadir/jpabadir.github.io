@@ -1,140 +1,146 @@
 [
   {
+    "author": "Mike Michalowicz",
+    "title": "Profit First",
+    "dateStarted": "October 2023",
+    "language": "English"
+  },
+  {
     "author": "Harper Lee",
     "title": "To Kill a Mockingbird",
-    "dateStarted": "August 2023", 
+    "dateStarted": "August 2023",
     "language": "English"
   },
   {
     "author": "Lewis Carroll",
     "title": "Alice's Adventures in Wonderland",
     "dateStarted": "June 2023",
-    "dateFinished": "August 2023", 
+    "dateFinished": "August 2023",
     "language": "English"
   },
   {
     "author": "Hélène Lambert",
     "title": "Bouche dé-cousue",
     "dateStarted": "June 2023",
-    "dateFinished": "June 2023", 
+    "dateFinished": "June 2023",
     "language": "French"
   },
   {
     "author": "Vaclav Smil",
     "title": "How the World Really Works",
-    "dateStarted": "June 2022", 
+    "dateStarted": "June 2022",
     "language": "English"
   },
   {
     "author": "Yuval Noah Harari",
     "title": "Sapiens",
     "dateStarted": "December 2020",
-    "dateFinished": "June 2022", 
+    "dateFinished": "June 2022",
     "language": "English"
   },
   {
     "author": "George Orwell",
     "title": "1984",
     "dateStarted": "March 2020",
-    "dateFinished": "December 2020", 
+    "dateFinished": "December 2020",
     "language": "English"
   },
   {
     "author": "Charles Duhigg",
     "title": "The Power of Habit",
     "dateStarted": "August 2019",
-    "dateFinished": "March 16 2020", 
+    "dateFinished": "March 16 2020",
     "language": "English"
   },
   {
     "author": "David Chilton",
     "title": "The Wealthy Barber",
     "dateStarted": "May 2018",
-    "dateFinished": "August 2018 ", 
+    "dateFinished": "August 2018 ",
     "language": "English"
   },
   {
     "author": "Robert Kiyosaki",
     "title": "Rich Dad Poor Dad",
     "dateStarted": "May 2018",
-    "dateFinished": "August 2018 ", 
+    "dateFinished": "August 2018 ",
     "language": "English"
   },
   {
     "author": "Art Spiegelman",
     "title": "Maus",
     "dateStarted": "2017",
-    "dateFinished": "2017", 
+    "dateFinished": "2017",
     "language": "English"
   },
   {
     "author": "Boris Vian",
     "title": "L'Écume des Jours",
     "dateStarted": "2016, 2022",
-    "dateFinished": "2016, 2023", 
+    "dateFinished": "2016, 2023",
     "language": "French"
   },
   {
     "author": "Joseph Conrad",
     "title": "Heart of Darkness",
     "dateStarted": "2016",
-    "dateFinished": "2017", 
+    "dateFinished": "2017",
     "language": "English"
   },
   {
     "author": "Lloyd Jones",
     "title": "Mister Pip",
     "dateStarted": "2016",
-    "dateFinished": "2017", 
+    "dateFinished": "2017",
     "language": "English"
   },
   {
     "author": "Alice Munro",
     "title": "A bunch of short stories",
     "dateStarted": "2016",
-    "dateFinished": "2017", 
+    "dateFinished": "2017",
     "language": "English"
   },
   {
     "author": "Samuel Beckett",
     "title": "Waiting For Godot",
     "dateStarted": "2016",
-    "dateFinished": "2017", 
+    "dateFinished": "2017",
     "language": "English"
   },
   {
     "author": "Cormack McArthy",
     "title": "The Road",
     "dateStarted": "2015",
-    "dateFinished": "2016", 
+    "dateFinished": "2016",
     "language": "English"
   },
   {
     "author": "William Shakespeare",
     "title": "Macbeth",
     "dateStarted": "2015",
-    "dateFinished": "2016", 
+    "dateFinished": "2016",
     "language": "English"
   },
   {
     "author": "Robert Muchamore",
     "title": "Most of the CHERUB series",
     "dateStarted": "2012",
-    "dateFinished": "2015", 
+    "dateFinished": "2015",
     "language": "French"
   },
   {
     "author": "Eoin Colfer",
     "title": "Most of the Artemis Fowl series",
     "dateStarted": "2009",
-    "dateFinished": "2012", 
+    "dateFinished": "2012",
     "language": "French"
   },
   {
     "author": "Julien Neel",
     "title": "All of the Lou! series",
     "dateStarted": "2009",
-    "dateFinished": "2023", 
+    "dateFinished": "2023",
     "language": "French"
   }
 ]
