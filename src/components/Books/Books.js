@@ -81,7 +81,7 @@ export default function Books() {
               >
                 <TableCell
                   sx={{ color: "inherit", fontSize: "inherit" }}
-                  label="Date Finished"
+                  label="Language"
                 >
                   {row.language}
                 </TableCell>
