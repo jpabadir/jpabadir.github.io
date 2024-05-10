@@ -36,23 +36,7 @@ ReactDOM.render(
         <Route path="investment-portfolio" element={<InvestmentPortfolio />} />
         <Route path="newsletter" element={<Newsletter />} />
         <Route path="ai-art" element={<AIArt />} />
-        <Route
-          path="trash-duty"
-          element={
-            Math.ceil(
-              ((new Date().getTime() -
-                new Date(new Date().getFullYear(), 0, 1).getTime()) /
-                86400000 +
-                new Date(new Date().getFullYear(), 0, 1).getDay() +
-                1) /
-                7
-            ) %
-              2 ==
-            0
-              ? "JP"
-              : "Jaden"
-          }
-        />
+        <Route path="trash-duty" element={"Jaden"} />
         <Route
           path="all-the-stuff-i-launched"
           element={<AllTheStuffILaunched />}
