@@ -6,6 +6,7 @@ import { linkify } from "../../helpers";
 export default function Home() {
   const navItems = [
     { name: "North P&D", link: "https://northpnd.com" },
+    { name: "isitwf.com", link: "https://isitwf.com" },
     // {
     //   name: "YouTube",
     //   link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
@@ -14,7 +15,7 @@ export default function Home() {
     { name: "X", link: "https://twitter.com/jpabadir" },
     { name: "Books I've read", link: "books-i-read" },
     { name: "Countries I've been to", link: "countries" },
-    // { name: "Investment Portfolio" },
+    { name: "Investment Portfolio" },
     // { name: "Newsletter" },
     { name: "AI Art" },
     // { name: "All the stuff I launched" },

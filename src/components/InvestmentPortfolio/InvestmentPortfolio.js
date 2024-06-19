@@ -12,19 +12,18 @@ ChartJS.register(ArcElement, PointElement, LineElement, Tooltip, Legend, Categor
 
 export default function InvestmentPortfolio() {
   const data = {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    labels: ["QQQ"  ,"TQQQ"  ,"META"  ,"VOO"  ,"IJR"  ,"CCL"  ,"TSLA"  ,"ARKK"],
     datasets: [
       {
         label: 'Security',
-        data: [12, 19, 3, 5, 2, 3],
-        backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)'],
-        borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'],
+        data: [33.7, 24.4, 14.0, 15.9, 3.2, 1.1, 5.8, 1.8],
+        backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)', 'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)'],
+        borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)', 'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)'],
         borderWidTableCell: 1,
       },
     ],
   };
   const lineData = {
-    labels: [1, 2, 3, 4],
     datasets: [
       {
         label: 'My First Dataset',
@@ -42,8 +41,11 @@ export default function InvestmentPortfolio() {
   ];
 
   return (
-    <div>
-      <h2>I like investing in stocks. Here's all my orders since July 1, 2020.</h2>
+    
+    <div className='d-flex flex-column justify-content-center align-items-center'>
+      <div className='mb-3'>Hover for exact percentages</div>  
+      <Doughnut data={data} className="PieChart" />
+      {/* <h2>I like investing in stocks. Here's all my orders since July 1, 2020.</h2>
       <h5>I'll add a full breakdown when I have time to build it.</h5>
       <h5>Hey and btw, this is all non-split adjusted. I just take what my brokerage gives me and turn it into JSON, don't @ me please.</h5>
       <div className="row justify-content-center mt-5">
@@ -85,7 +87,7 @@ export default function InvestmentPortfolio() {
             </TableBody>
           </Table>
         </TableContainer>
-      </div>
+      </div> */}
       {/* <div className="row justify-content-center mt-5">
         <div className="col-lg-6 d-flex justify-content-center">
           <Doughnut data={data} className="PieChart" />
