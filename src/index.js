@@ -16,6 +16,7 @@ import Newsletter from "./components/Newsletter/Newsletter";
 import AIArt from "./components/AIArt/AIArt";
 import AllTheStuffILaunched from "./components/AllTheStuffILaunched/AllTheStuffILaunched";
 import WhatImListeningTo from "./components/WhatImListeningTo/WhatImListeningTo";
+import TheBragDoc from "./components/TheBragDoc/TheBragDoc";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -42,6 +43,7 @@ ReactDOM.render(
           element={<AllTheStuffILaunched />}
         />
         <Route path="what-im-listening-to" element={<WhatImListeningTo />} />
+        <Route path="the-brag-doc" element={<TheBragDoc />} />
         <Route path="*" element={<div>404. Who gave you this link?</div>} />
       </Route>
     </Routes>

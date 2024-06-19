@@ -37,6 +37,7 @@ export default function Countries() {
         ['Italy', 1],
         ['Ireland', 1],
         ['Netherlands', 1],
+        ['Taiwan', 1],
       ]);
 
       var options = {

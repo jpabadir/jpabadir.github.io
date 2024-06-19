@@ -11,15 +11,16 @@ export default function Home() {
     //   link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
     // },
     // { name: "Articles" },
-    { name: "Twitter", link: "https://twitter.com/jpabadir" },
+    { name: "X", link: "https://twitter.com/jpabadir" },
     { name: "Books I've read", link: "books-i-read" },
-    // { name: "Countries I've been to", link: "countries" },
+    { name: "Countries I've been to", link: "countries" },
     // { name: "Investment Portfolio" },
     // { name: "Newsletter" },
     { name: "AI Art" },
     // { name: "All the stuff I launched" },
     { name: "What I'm listening to", link: "what-im-listening-to" },
     { name: "GitHub", link: "https://github.com/jpabadir" },
+    { name: "The Brag Doc" },
     { name: "LinkedIn", link: "https://linkedin.com/in/jpabadir" },
   ];
 
