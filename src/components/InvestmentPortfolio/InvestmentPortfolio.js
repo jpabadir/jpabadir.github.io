@@ -12,11 +12,11 @@ ChartJS.register(ArcElement, PointElement, LineElement, Tooltip, Legend, Categor
 
 export default function InvestmentPortfolio() {
   const data = {
-    labels: ["QQQ"  ,"TQQQ"  ,"META"  ,"VOO"  ,"IJR"  ,"CCL"  ,"TSLA"  ,"ARKK"],
+    labels: ["QQQ"  ,"TQQQ"  ,"META"  ,"VOO"  ,"UPRO"  ,"CCL"  ,"TSLA"  ,"ARKK"],
     datasets: [
       {
         label: 'Security',
-        data: [33.7, 24.4, 14.0, 15.9, 3.2, 1.1, 5.8, 1.8],
+        data: [33.7, 24.4, 14.0, 15.9, 3.23, 1.1, 5.8, 1.8],
         backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)', 'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)'],
         borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)', 'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)'],
         borderWidTableCell: 1,
