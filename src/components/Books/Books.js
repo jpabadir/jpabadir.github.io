@@ -16,8 +16,12 @@ export default function Books() {
         never finished them.
       </div>
       <div style={{ fontSize: "15px", color: "grey" }}>
-        <span style={{ color: "orange" }}>Orange</span> books are being read
-        right now. As we speak.
+        <span style={{ color: "blue" }}>Light blue</span> books are being read
+        right now. As we speak. There's{" "}
+        <span style={{ color: "blue" }}>
+          {books.filter((book) => !book.dateFinished).length}
+        </span>{" "}
+        of them.
       </div>
       <TableContainer className="mt-4">
         <Table aria-label="simple table">
@@ -68,6 +72,15 @@ export default function Books() {
               >
                 Date Finished
               </TableCell>
+              <TableCell
+                sx={{
+                  color: "inherit",
+                  fontSize: "inherit",
+                  fontWeight: "bold",
+                }}
+              >
+                Format
+              </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -77,7 +90,7 @@ export default function Books() {
                 sx={{
                   "&:last-child td, &:last-child th": { border: 0 },
                 }}
-                style={{ backgroundColor: row.dateFinished ? "" : "orange" }}
+                style={{ backgroundColor: row.dateFinished ? "" : "lightblue" }}
               >
                 <TableCell
                   sx={{ color: "inherit", fontSize: "inherit" }}
@@ -87,17 +100,16 @@ export default function Books() {
                 </TableCell>
                 <TableCell
                   sx={{ color: "inherit", fontSize: "inherit" }}
-                  label="Title"
-                >
-                  {row.title}
-                </TableCell>
-                <TableCell
-                  sx={{ color: "inherit", fontSize: "inherit" }}
                   label="Author"
                 >
                   {row.author}
                 </TableCell>
-
+                <TableCell
+                  sx={{ color: "inherit", fontSize: "inherit" }}
+                  label="Title"
+                >
+                  {row.title}
+                </TableCell>
                 <TableCell
                   sx={{ color: "inherit", fontSize: "inherit" }}
                   label="Date Started"
@@ -109,6 +121,20 @@ export default function Books() {
                   label="Date Finished"
                 >
                   {row.dateFinished}
+                </TableCell>
+                <TableCell
+                  sx={{ color: "inherit", fontSize: "inherit" }}
+                  label="Format"
+                >
+                  {row.formats ? (
+                    row.formats.map((format) => (
+                      <div className={"pill pill-" + format.toLowerCase()}>
+                        {format}
+                      </div>
+                    ))
+                  ) : (
+                    <div className="pill pill-written">Written</div>
+                  )}
                 </TableCell>
               </TableRow>
             ))}

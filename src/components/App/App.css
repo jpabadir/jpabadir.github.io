@@ -41,3 +41,12 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background: #fff;
 }
+
+.pill {
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px;
+  font-size: 15px;
+}

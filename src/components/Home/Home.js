@@ -23,10 +23,64 @@ export default function Home() {
     { name: "GitHub", link: "https://github.com/jpabadir" },
     { name: "The Brag Doc" },
     { name: "LinkedIn", link: "https://linkedin.com/in/jpabadir" },
+    {
+      name: "A sweet little riddle. No one's solved it yet! Give it a shot.",
+      link: "https://x.com/jpabadir/status/1451630095773356032",
+    },
   ];
+
+  const [clickCount, setClickCount] = useState(0);
+
+  function showEasterEgg() {
+    document.getElementById("easterEgg").style.opacity = 1;
+    setTimeout(hideEasterEgg, 1000);
+  }
+
+  function hideEasterEgg() {
+    if (!document.getElementById("easterEgg")) return;
+    if (clickCount < 9) {
+      document.getElementById("easterEgg").style.opacity = 0;
+    }
+    if (clickCount == 0) {
+      setClickCount((clickCount) => clickCount + 1);
+    } else {
+      setTimeout(() => setClickCount((clickCount) => clickCount * 2), 1000);
+    }
+  }
+
+  var renderStuff;
+  if (clickCount == 0) {
+    renderStuff = (
+      <div>
+        Well, how about you show me your personal website? Is it better? Yeah,
+        didn't think so.
+      </div>
+    );
+  } else {
+    renderStuff = <div>{new Array(clickCount).fill("🖕")}</div>;
+  }
 
   return (
     <div className="container">
+      <div className="d-flex justify-content-center mb-2">
+        <h2>Welcome to my ugly personal website!</h2>
+        <button
+          className="btn btn-primary m-1"
+          onClick={() => {
+            showEasterEgg();
+          }}
+          style={{fontSize: "13px"}}
+        >
+          You're right, it really is ugly!
+        </button>
+      </div>
+      <div
+        className="text-muted"
+        id="easterEgg"
+        style={{ transition: "500ms", opacity: 0 }}
+      >
+        {renderStuff}
+      </div>
       <div className="row">
         <div className="col">
           {navItems.map((item) => {
@@ -65,6 +119,10 @@ export default function Home() {
             id="myVideo"
             className="StaticShadow"
           /> */}
+        </div>
+        <div className="text-muted mt-5">
+          Somewhere on this website, there's a neat little demonstration of
+          compound interest. Can you find it?
         </div>
       </div>
     </div>

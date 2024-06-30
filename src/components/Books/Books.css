@@ -2,17 +2,25 @@
   color: #cccccc;
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
   table thead {
     display: none !important;
   }
   table td {
     display: flex !important;
   }
-  
+
   table td::before {
     content: attr(label) !important;
     font-weight: bold !important;
     width: 140px !important;
   }
+}
+
+.pill-written {
+  color: green;
+}
+
+.pill-audiobook {
+  color: blue;
 }
