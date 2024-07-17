@@ -62,9 +62,16 @@ export default function Home() {
 
   return (
     <div className="container">
-      <div className="d-flex justify-content-center mb-2">
-        <h2>Welcome to my ugly personal website!</h2>
-        <button
+      <div className="justify-content-center mb-2">
+        <h1 className="mb-2">Welcome to my personal website!</h1>
+        <h5 style={{ color: "rgb(100,100,100)", fontSize: "18px" }}>
+          If you think it's ugly, you should check out{" "}
+          <a href="https://www.paulgraham.com/" target="_blank" rel="noopener">
+            Paul Graham's
+          </a>
+          . If he can make billions with that, I can make millions with this.
+        </h5>
+        {/* <button
           className="btn btn-primary m-1"
           onClick={() => {
             showEasterEgg();
@@ -72,7 +79,7 @@ export default function Home() {
           style={{fontSize: "13px"}}
         >
           You're right, it really is ugly!
-        </button>
+        </button> */}
       </div>
       <div
         className="text-muted"
@@ -120,10 +127,10 @@ export default function Home() {
             className="StaticShadow"
           /> */}
         </div>
-        <div className="text-muted mt-5">
+        {/* <div className="text-muted mt-5">
           Somewhere on this website, there's a neat little demonstration of
           compound interest. Can you find it?
-        </div>
+        </div> */}
       </div>
     </div>
   );
