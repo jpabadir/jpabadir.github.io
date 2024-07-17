@@ -61,7 +61,7 @@ export default function Countries() {
     <div>
       <div className="mb-3">
         <span style={{ color: "red" }}>{countries.length}</span> countries so
-        far
+        far. There are 195 countries in the world, so that's <span style={{ color: "red" }}>{Math.round((countries.length / 195) * 100)}%</span> done, <span style={{ color: "red" }}>{195 - countries.length}</span> to go.
       </div>
       <div id="regions_div" />
       {/* <img src={Map} alt="A map of the countries I've been to" style={{ width: '100%', height: '100%' }} /> */}
