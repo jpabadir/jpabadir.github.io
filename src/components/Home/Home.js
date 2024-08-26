@@ -63,14 +63,7 @@ export default function Home() {
   return (
     <div className="container">
       <div className="justify-content-center mb-2">
-        <h1 className="mb-2">Welcome to my personal website!</h1>
-        <h5 style={{ color: "rgb(100,100,100)", fontSize: "18px" }}>
-          If you think it's ugly, you should check out{" "}
-          <a href="https://www.paulgraham.com/" target="_blank" rel="noopener">
-            Paul Graham's
-          </a>
-          . If he can make billions with that, I can make millions with this.
-        </h5>
+        {/* <h1 className="mb-2">Welcome to my personal website!</h1> */}
         {/* <button
           className="btn btn-primary m-1"
           onClick={() => {
@@ -92,7 +85,7 @@ export default function Home() {
         <div className="col">
           {navItems.map((item) => {
             return (
-              <div>
+              <div key={item.name}>
                 {item.link && item.link.includes("https") ? (
                   <a
                     key={item.name}
@@ -131,6 +124,15 @@ export default function Home() {
           Somewhere on this website, there's a neat little demonstration of
           compound interest. Can you find it?
         </div> */}
+      </div>
+      <div className="row" style={{ marginTop: "120px" }}>
+        <h5 style={{ color: "rgb(100,100,100)", fontSize: "13px" }}>
+          If you think my site's ugly, you should check out{" "}
+          <a href="https://www.paulgraham.com/" target="_blank" rel="noopener">
+            Paul Graham's
+          </a>
+          . If he can make billions with that, surely I can make millions with this.
+        </h5>
       </div>
     </div>
   );
