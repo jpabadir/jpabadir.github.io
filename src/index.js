@@ -17,6 +17,7 @@ import AIArt from "./components/AIArt/AIArt";
 import AllTheStuffILaunched from "./components/AllTheStuffILaunched/AllTheStuffILaunched";
 import WhatImListeningTo from "./components/WhatImListeningTo/WhatImListeningTo";
 import TheBragDoc from "./components/TheBragDoc/TheBragDoc";
+import NoFights from "./components/NoFights/NoFights";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -38,6 +39,7 @@ ReactDOM.render(
         <Route path="newsletter" element={<Newsletter />} />
         <Route path="ai-art" element={<AIArt />} />
         <Route path="trash-duty" element={"Jaden"} />
+        <Route path="no-fights" element={<NoFights />} />
         <Route
           path="all-the-stuff-i-launched"
           element={<AllTheStuffILaunched />}
