@@ -1,7 +1,7 @@
 import "./NoFights.css";
 
 export default function NoFights() {
-  const lastFightDate = "2021-09-01T04:00:00.000Z";
+  const lastFightDate = "2024-09-01T04:00:00.000Z";
   const daysSinceLastFight = Math.floor(
     (new Date() - new Date(lastFightDate)) / (1000 * 60 * 60 * 24)
   );
@@ -10,7 +10,7 @@ export default function NoFights() {
     <div>
       No fights since{" "}
       <span style={{ color: "red", fontSize: "40px" }}>
-        {lastFightDate.toString()}
+        {new Date(lastFightDate).toLocaleDateString()}
       </span>
       . That's{" "}
       <blink style={{ color: "red", fontSize: "40px" }}>
@@ -20,9 +20,16 @@ export default function NoFights() {
       <br />
       <br />
       <br />
+      <div>
+        High score so far:{" "}
+        <span className="highscore">{daysSinceLastFight}</span> days
+      </div>
       <br />
       <br />
-      <div style={{color: 'grey'}}>Contact admin to reset.</div>
+      <br />
+      <br />
+      <br />
+      <div style={{ color: "grey" }}>Contact admin to reset.</div>
     </div>
   );
 }
