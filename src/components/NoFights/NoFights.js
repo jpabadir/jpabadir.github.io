@@ -1,7 +1,7 @@
 import "./NoFights.css";
 
 export default function NoFights() {
-  const lastFightDate = "2024-09-01";
+  const lastFightDate = "2021-09-01T04:00:00.000Z";
   const daysSinceLastFight = Math.floor(
     (new Date() - new Date(lastFightDate)) / (1000 * 60 * 60 * 24)
   );
