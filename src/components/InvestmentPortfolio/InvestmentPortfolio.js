@@ -23,22 +23,24 @@ ChartJS.register(
 export default function InvestmentPortfolio() {
   const data = {
     labels: [
-      "SSO - 25%",
-      "QQQ - 24%",
-      "VOO - 16%",
-      "TQQQ - 11%",
-      "META - 7%",
-      "QLD - 7%",
-      "TSLA - 4%",
-      "SCHD - 2%",
-      "UPRO - 2%",
-      "ARKK - 1%",
-      "CCL 1%",
+      "SSO - 24.64%",
+      "QQQ - 23.49%",
+      "VOO - 15.68%",
+      "TQQQ - 10.91%",
+      "META - 7.76%",
+      "QLD - 6.70%",
+      "TSLA - 3.80%",
+      "SCHD - 3.73%",
+      "UPRO - 1.69%",
+      "ARKK - 0.94%",
+      "CCL - 0.65%",
     ],
     datasets: [
       {
         label: "Security",
-        data: [25, 24, 16, 11, 7, 7, 4, 2, 2, 1, 1],
+        data: [
+          24.64, 23.49, 15.68, 10.91, 7.76, 6.7, 3.8, 3.73, 1.69, 0.94, 0.65,
+        ],
         backgroundColor: [
           "RGB(255, 99, 71)",
           "RGB(135, 206, 250)",
@@ -60,10 +62,7 @@ export default function InvestmentPortfolio() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
       <div className="mb-3">Hover for exact percentages</div>
-      <Doughnut
-        data={data}
-        className="PieChart"
-      />
+      <Doughnut data={data} className="PieChart" />
     </div>
   );
 }
