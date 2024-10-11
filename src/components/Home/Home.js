@@ -7,10 +7,10 @@ export default function Home() {
   const navItems = [
     { name: "North P&D", link: "https://northpnd.com" },
     { name: "isitwf.com", link: "https://isitwf.com" },
-    // {
-    //   name: "YouTube",
-    //   link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
-    // },
+    {
+      name: "YouTube",
+      link: "https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw",
+    },
     // { name: "Articles" },
     { name: "X", link: "https://twitter.com/jpabadir" },
     { name: "Books I've read", link: "books-i-read" },
@@ -21,7 +21,7 @@ export default function Home() {
     // { name: "All the stuff I launched" },
     { name: "What I'm listening to", link: "what-im-listening-to" },
     { name: "GitHub", link: "https://github.com/jpabadir" },
-    { name: "The Brag Doc" },
+    // { name: "The Brag Doc" },
     { name: "LinkedIn", link: "https://linkedin.com/in/jpabadir" },
     {
       name: "A sweet little riddle. No one's solved it yet! Give it a shot.",
