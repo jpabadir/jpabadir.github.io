@@ -103,5 +103,11 @@
     "markerOffset": -25,
     "name": "Montreal",
     "coordinates": [-73.5673, 45.5017]
+  },
+  {
+    "markerOffset": -25,
+    "name": "San Francisco",
+    "coordinates": [-122.4194, 37.7749], 
+    "type": "layover"
   }
 ]
