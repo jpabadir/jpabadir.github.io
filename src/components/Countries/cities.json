@@ -2,8 +2,7 @@
   {
     "markerOffset": -25,
     "name": "Paris",
-    "coordinates": [2.352222, 48.8566],
-    "type": "lived"
+    "coordinates": [2.352222, 48.8566]
   },
   { "markerOffset": -25, "name": "Nice", "coordinates": [7.261953, 43.7102] },
   { "markerOffset": -25, "name": "NYC", "coordinates": [-74.006, 40.7128] },
@@ -16,18 +15,19 @@
   {
     "markerOffset": -25,
     "name": "Vancouver",
-    "coordinates": [-123.1207, 49.2827],
-    "type": "lived"
+    "coordinates": [-123.1207, 49.2827]
   },
   {
     "markerOffset": -25,
     "name": "Toronto",
-    "coordinates": [-79.3832, 43.6532]
+    "coordinates": [-79.3832, 43.6532],
+    "type": "lived"
   },
   {
     "markerOffset": -25,
     "name": "Kelowna",
-    "coordinates": [-119.496, 49.8879]
+    "coordinates": [-119.496, 49.8879],
+    "type": "lived"
   },
   {
     "markerOffset": -25,
@@ -81,5 +81,16 @@
     "name": "Narita",
     "coordinates": [140.3864, 35.7734],
     "type": "layover"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Muskoka",
+    "coordinates": [-79.3331, 45.0491]
+  },
+  {
+    "markerOffset": -25,
+    "name": "Fontainebleau",
+    "coordinates": [2.6986, 48.4048],
+    "type": "lived"
   }
 ]
