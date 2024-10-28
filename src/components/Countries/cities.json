@@ -7,6 +7,12 @@
   { "markerOffset": -25, "name": "Nice", "coordinates": [7.261953, 43.7102] },
   { "markerOffset": -25, "name": "NYC", "coordinates": [-74.006, 40.7128] },
   { "markerOffset": -25, "name": "Boston", "coordinates": [-71.0589, 42.3601] },
+  { "markerOffset": -25, "name": "Harwich", "coordinates": [-70.0672, 41.683] },
+  {
+    "markerOffset": -25,
+    "name": "Baschurch",
+    "coordinates": [-2.8738, 52.7483]
+  },
   {
     "markerOffset": -25,
     "name": "Chicago",
@@ -67,6 +73,13 @@
   { "markerOffset": -25, "name": "Agadir", "coordinates": [-9.5989, 30.4275] },
   {
     "markerOffset": -25,
+    "name": "Calgary",
+    "coordinates": [-114.0719, 51.0447],
+    "type": "layover"
+  },
+
+  {
+    "markerOffset": -25,
     "name": "Djerba Ajim",
     "coordinates": [10.8457, 33.828]
   },
@@ -107,7 +120,14 @@
   {
     "markerOffset": -25,
     "name": "San Francisco",
-    "coordinates": [-122.4194, 37.7749], 
+    "coordinates": [-122.4194, 37.7749],
+    "type": "layover"
+  },
+  { "markerOffset": -25, "name": "München", "coordinates": [11.5755, 48.1372] },
+  {
+    "markerOffset": -25,
+    "name": "Reykjavik",
+    "coordinates": [-21.9426, 64.1355],
     "type": "layover"
   }
 ]
