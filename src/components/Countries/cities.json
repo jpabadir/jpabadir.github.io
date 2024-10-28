@@ -130,5 +130,11 @@
     "coordinates": [-21.9426, 64.1355],
     "type": "layover"
   },
-  { "markerOffset": -25, "name": "Chamonix", "coordinates": [6.8694, 45.9237] }
+  { "markerOffset": -25, "name": "Chamonix", "coordinates": [6.8694, 45.9237] },
+  {
+    "markerOffset": -25,
+    "name": "Lessard-et-le-Chêne",
+    "coordinates": [0.8587, 49.0145]
+  },
+  { "markerOffset": -25, "name": "Cabourg", "coordinates": [-0.122590, 49.285919] }
 ]
