@@ -37,7 +37,6 @@ export default function Countries(props) {
     visited: "red",
     layover: "blue",
     lived: "green",
-    wannaGo: "purple",
   };
 
   return (
@@ -99,11 +98,20 @@ export default function Countries(props) {
         ))}
       </ComposableMap>
       <div>
-        <span style={{ color: "red" }}>Red</span> are cities I visited.{" "}
-        <span style={{ color: "blue" }}>Blue</span> are cities I only had a layover
-        in. <span style={{ color: "green" }}>Green</span> are cities I lived in.{" "}
-        {/* <span style={{ color: "purple" }}>purple</span> are cities I want to
-        visit. */}
+        <span style={{ color: "red" }}>Red</span> are cities I visited (
+        <span style={{ color: "red" }}>
+          {markers.filter((marker) => !marker.type).length}
+        </span>
+        ). <span style={{ color: "blue" }}>Blue</span> are cities I only had a
+        layover in (
+        <span style={{ color: "blue" }}>
+          {markers.filter((marker) => marker.type == "layover").length}
+        </span>
+        ). <span style={{ color: "green" }}>Green</span> are cities I lived in{" "}
+        (<span style={{ color: "green" }}>
+          {markers.filter((marker) => marker.type == "lived").length}
+        </span>)
+        .{" "}
       </div>
     </div>
   );

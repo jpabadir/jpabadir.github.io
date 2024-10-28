@@ -92,5 +92,16 @@
     "name": "Fontainebleau",
     "coordinates": [2.6986, 48.4048],
     "type": "lived"
+  },
+  { "markerOffset": -25, "name": "Ajaccio", "coordinates": [8.7386, 41.9192] },
+  {
+    "markerOffset": -25,
+    "name": "Bonifacio",
+    "coordinates": [9.1511, 41.1881]
+  },
+  {
+    "markerOffset": -25,
+    "name": "Montreal",
+    "coordinates": [-73.5673, 45.5017]
   }
 ]
