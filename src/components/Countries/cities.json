@@ -129,5 +129,6 @@
     "name": "Reykjavik",
     "coordinates": [-21.9426, 64.1355],
     "type": "layover"
-  }
+  },
+  { "markerOffset": -25, "name": "Chamonix", "coordinates": [6.8694, 45.9237] }
 ]
