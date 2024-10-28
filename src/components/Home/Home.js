@@ -14,7 +14,7 @@ export default function Home() {
     // { name: "Articles" },
     { name: "X", link: "https://twitter.com/jpabadir" },
     { name: "Books I've read", link: "books-i-read" },
-    { name: "Countries I've been to", link: "countries" },
+    { name: "Places I've been", link: "places" },
     { name: "Investment Portfolio" },
     // { name: "Newsletter" },
     { name: "AI Art" },

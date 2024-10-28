@@ -1,0 +1,85 @@
+[
+  {
+    "markerOffset": -25,
+    "name": "Paris",
+    "coordinates": [2.352222, 48.8566],
+    "type": "lived"
+  },
+  { "markerOffset": -25, "name": "Nice", "coordinates": [7.261953, 43.7102] },
+  { "markerOffset": -25, "name": "NYC", "coordinates": [-74.006, 40.7128] },
+  { "markerOffset": -25, "name": "Boston", "coordinates": [-71.0589, 42.3601] },
+  {
+    "markerOffset": -25,
+    "name": "Chicago",
+    "coordinates": [-87.6298, 41.8781]
+  },
+  {
+    "markerOffset": -25,
+    "name": "Vancouver",
+    "coordinates": [-123.1207, 49.2827],
+    "type": "lived"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Toronto",
+    "coordinates": [-79.3832, 43.6532]
+  },
+  {
+    "markerOffset": -25,
+    "name": "Kelowna",
+    "coordinates": [-119.496, 49.8879]
+  },
+  {
+    "markerOffset": -25,
+    "name": "Kenting",
+    "coordinates": [120.7495, 21.9465]
+  },
+  { "markerOffset": -25, "name": "Lisboa", "coordinates": [-9.1393, 38.7223] },
+  {
+    "markerOffset": -25,
+    "name": "San Sebastian",
+    "coordinates": [-1.9812, 43.3183]
+  },
+  { "markerOffset": -25, "name": "Palermo", "coordinates": [13.3615, 38.1157] },
+  {
+    "markerOffset": -25,
+    "name": "The Hague",
+    "coordinates": [4.3007, 52.0705]
+  },
+  { "markerOffset": -25, "name": "Cairo", "coordinates": [31.2357, 30.0444] },
+  {
+    "markerOffset": -25,
+    "name": "Hurghada",
+    "coordinates": [33.8116, 27.2579]
+  },
+  {
+    "markerOffset": -25,
+    "name": "Bombannes",
+    "coordinates": [-1.0794, 44.6265]
+  },
+  { "markerOffset": -25, "name": "Roscoff", "coordinates": [-3.9833, 48.7333] },
+  { "markerOffset": -25, "name": "Brest", "coordinates": [-4.4861, 48.39] },
+  { "markerOffset": -25, "name": "London", "coordinates": [-0.1276, 51.5074] },
+  { "markerOffset": -25, "name": "Dublin", "coordinates": [-6.2603, 53.3498] },
+  { "markerOffset": -25, "name": "Hamburg", "coordinates": [9.9937, 53.5511] },
+  { "markerOffset": -25, "name": "Lausanne", "coordinates": [6.629, 46.5197] },
+  { "markerOffset": -25, "name": "Berlin", "coordinates": [13.405, 52.52] },
+  { "markerOffset": -25, "name": "Agadir", "coordinates": [-9.5989, 30.4275] },
+  {
+    "markerOffset": -25,
+    "name": "Djerba Ajim",
+    "coordinates": [10.8457, 33.828]
+  },
+  {
+    "markerOffset": -25,
+    "name": "Incheon",
+    "coordinates": [126.4512, 37.4563],
+    "type": "layover"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Narita",
+    "coordinates": [140.3864, 35.7734],
+    "type": "layover"
+  }
+]

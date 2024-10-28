@@ -34,7 +34,7 @@ ReactDOM.render(
           />
         ))}
         <Route path="books-i-read" element={<Books />} />
-        <Route path="countries" element={<Countries />} />
+        <Route path="places" element={<Countries />} />
         <Route path="investment-portfolio" element={<InvestmentPortfolio />} />
         <Route path="newsletter" element={<Newsletter />} />
         <Route path="ai-art" element={<AIArt />} />
