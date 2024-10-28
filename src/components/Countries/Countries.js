@@ -107,10 +107,11 @@ export default function Countries(props) {
         <span style={{ color: "blue" }}>
           {markers.filter((marker) => marker.type == "layover").length}
         </span>
-        ). <span style={{ color: "green" }}>Green</span> are cities I lived in{" "}
-        (<span style={{ color: "green" }}>
+        ). <span style={{ color: "green" }}>Green</span> are cities I lived in (
+        <span style={{ color: "green" }}>
           {markers.filter((marker) => marker.type == "lived").length}
-        </span>).{" "}
+        </span>
+        ).{" "}
       </div>
     </div>
   );
