@@ -54,7 +54,8 @@ export default function Countries(props) {
                     ? "skyblue"
                     : "#EAEAEC"
                 }
-                stroke="#D6D6DA"
+                stroke="darkgrey"
+                strokeWidth={.5}
               />
             ))
           }
