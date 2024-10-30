@@ -51,7 +51,7 @@ export default function Countries(props) {
                 geography={geo}
                 fill={
                   countries.includes(geo.properties.name)
-                    ? "#ff6240"
+                    ? "skyblue"
                     : "#EAEAEC"
                 }
                 stroke={
