@@ -8,26 +8,9 @@ import {
 } from "react-simple-maps";
 import "./Countries.css";
 
-import markers from "./cities.json";
+import cities from "./cities.json";
 
-// const countries = [
-//   "France",
-//   "United States",
-//   "Canada",
-//   "France",
-//   "Morocco",
-//   "Tunisia",
-//   "Egypt",
-//   "Switzerland",
-//   "Germany",
-//   "United Kingdom",
-//   "Spain",
-//   "Portugal",
-//   "Italy",
-//   "Ireland",
-//   "Netherlands",
-//   "Taiwan",
-// ];
+const countries = [... new Set(cities.filter((city) => city.type !== "layover").map((city) => city.country))];
 
 export default function Countries(props) {
   const width = 800;
@@ -66,13 +49,21 @@ export default function Countries(props) {
                 }}
                 key={geo.rsmKey}
                 geography={geo}
-                fill="#EAEAEC"
-                stroke="#D6D6DA"
+                fill={
+                  countries.includes(geo.properties.name)
+                    ? "lightblue"
+                    : "#EAEAEC"
+                }
+                stroke={
+                  countries.includes(geo.properties.name)
+                    ? "darkblue"
+                    : "#D6D6DA"
+                }
               />
             ))
           }
         </Geographies>
-        {markers.map(({ name, coordinates, markerOffset, type }) => (
+        {cities.map(({ name, coordinates, markerOffset, type }) => (
           <Marker key={name} coordinates={coordinates}>
             <g
               fill="none"
@@ -100,18 +91,19 @@ export default function Countries(props) {
       <div>
         <span style={{ color: "red" }}>Red</span> are cities I visited (
         <span style={{ color: "red" }}>
-          {markers.filter((marker) => !marker.type).length}
+          {cities.filter((marker) => !marker.type).length}
         </span>
         ). <span style={{ color: "blue" }}>Blue</span> are cities I only had a
         layover in (
         <span style={{ color: "blue" }}>
-          {markers.filter((marker) => marker.type == "layover").length}
+          {cities.filter((marker) => marker.type == "layover").length}
         </span>
         ). <span style={{ color: "green" }}>Green</span> are cities I lived in (
         <span style={{ color: "green" }}>
-          {markers.filter((marker) => marker.type == "lived").length}
+          {cities.filter((marker) => marker.type == "lived").length}
         </span>
         ).{" "}
+        <div>{countries.length} countries visited in total.</div>
       </div>
     </div>
   );

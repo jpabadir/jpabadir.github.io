@@ -2,139 +2,255 @@
   {
     "markerOffset": -25,
     "name": "Paris",
-    "coordinates": [2.352222, 48.8566]
+    "coordinates": [2.352222, 48.8566],
+    "country": "France"
   },
-  { "markerOffset": -25, "name": "Nice", "coordinates": [7.261953, 43.7102] },
-  { "markerOffset": -25, "name": "NYC", "coordinates": [-74.006, 40.7128] },
-  { "markerOffset": -25, "name": "Boston", "coordinates": [-71.0589, 42.3601] },
-  { "markerOffset": -25, "name": "Harwich", "coordinates": [-70.0672, 41.683] },
+  {
+    "markerOffset": -25,
+    "name": "Nice",
+    "coordinates": [7.261953, 43.7102],
+    "country": "France"
+  },
+  {
+    "markerOffset": -25,
+    "name": "NYC",
+    "coordinates": [-74.006, 40.7128],
+    "country": "United States"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Boston",
+    "coordinates": [-71.0589, 42.3601],
+    "country": "United States"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Harwich",
+    "coordinates": [-70.0672, 41.683],
+    "country": "United States"
+  },
   {
     "markerOffset": -25,
     "name": "Baschurch",
-    "coordinates": [-2.8738, 52.7483]
+    "coordinates": [-2.8738, 52.7483],
+    "country": "UK"
   },
   {
     "markerOffset": -25,
     "name": "Chicago",
-    "coordinates": [-87.6298, 41.8781]
+    "coordinates": [-87.6298, 41.8781],
+    "country": "United States"
   },
   {
     "markerOffset": -25,
     "name": "Vancouver",
-    "coordinates": [-123.1207, 49.2827]
+    "coordinates": [-123.1207, 49.2827],
+    "country": "Canada"
   },
   {
     "markerOffset": -25,
     "name": "Toronto",
     "coordinates": [-79.3832, 43.6532],
+    "country": "Canada",
     "type": "lived"
   },
   {
     "markerOffset": -25,
     "name": "Kelowna",
     "coordinates": [-119.496, 49.8879],
+    "country": "Canada",
     "type": "lived"
   },
   {
     "markerOffset": -25,
     "name": "Kenting",
-    "coordinates": [120.7495, 21.9465]
+    "coordinates": [120.7495, 21.9465],
+    "country": "Taiwan"
   },
-  { "markerOffset": -25, "name": "Lisboa", "coordinates": [-9.1393, 38.7223] },
+  {
+    "markerOffset": -25,
+    "name": "Lisboa",
+    "coordinates": [-9.1393, 38.7223],
+    "country": "Portugal"
+  },
   {
     "markerOffset": -25,
     "name": "San Sebastian",
-    "coordinates": [-1.9812, 43.3183]
+    "coordinates": [-1.9812, 43.3183],
+    "country": "Spain"
   },
-  { "markerOffset": -25, "name": "Palermo", "coordinates": [13.3615, 38.1157] },
+  {
+    "markerOffset": -25,
+    "name": "Palermo",
+    "coordinates": [13.3615, 38.1157],
+    "country": "Italy"
+  },
   {
     "markerOffset": -25,
     "name": "The Hague",
-    "coordinates": [4.3007, 52.0705]
+    "coordinates": [4.3007, 52.0705],
+    "country": "Netherlands"
   },
-  { "markerOffset": -25, "name": "Cairo", "coordinates": [31.2357, 30.0444] },
+  {
+    "markerOffset": -25,
+    "name": "Cairo",
+    "coordinates": [31.2357, 30.0444],
+    "country": "Egypt"
+  },
   {
     "markerOffset": -25,
     "name": "Hurghada",
-    "coordinates": [33.8116, 27.2579]
+    "coordinates": [33.8116, 27.2579],
+    "country": "Egypt"
   },
   {
     "markerOffset": -25,
     "name": "Bombannes",
-    "coordinates": [-1.0794, 44.6265]
+    "coordinates": [-1.0794, 44.6265],
+    "country": "France"
   },
-  { "markerOffset": -25, "name": "Roscoff", "coordinates": [-3.9833, 48.7333] },
-  { "markerOffset": -25, "name": "Brest", "coordinates": [-4.4861, 48.39] },
-  { "markerOffset": -25, "name": "London", "coordinates": [-0.1276, 51.5074] },
-  { "markerOffset": -25, "name": "Dublin", "coordinates": [-6.2603, 53.3498] },
-  { "markerOffset": -25, "name": "Hamburg", "coordinates": [9.9937, 53.5511] },
-  { "markerOffset": -25, "name": "Lausanne", "coordinates": [6.629, 46.5197] },
-  { "markerOffset": -25, "name": "Berlin", "coordinates": [13.405, 52.52] },
-  { "markerOffset": -25, "name": "Agadir", "coordinates": [-9.5989, 30.4275] },
+  {
+    "markerOffset": -25,
+    "name": "Roscoff",
+    "coordinates": [-3.9833, 48.7333],
+    "country": "France"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Brest",
+    "coordinates": [-4.4861, 48.39],
+    "country": "France"
+  },
+  {
+    "markerOffset": -25,
+    "name": "London",
+    "coordinates": [-0.1276, 51.5074],
+    "country": "UK"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Dublin",
+    "coordinates": [-6.2603, 53.3498],
+    "country": "Ireland"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Hamburg",
+    "coordinates": [9.9937, 53.5511],
+    "country": "Germany"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Lausanne",
+    "coordinates": [6.629, 46.5197],
+    "country": "Switzerland"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Berlin",
+    "coordinates": [13.405, 52.52],
+    "country": "Germany"
+  },
+  {
+    "markerOffset": -25,
+    "name": "Agadir",
+    "coordinates": [-9.5989, 30.4275],
+    "country": "Morocco"
+  },
   {
     "markerOffset": -25,
     "name": "Calgary",
     "coordinates": [-114.0719, 51.0447],
+    "country": "Canada",
     "type": "layover"
   },
-
   {
     "markerOffset": -25,
     "name": "Djerba Ajim",
-    "coordinates": [10.8457, 33.828]
+    "coordinates": [10.8457, 33.828],
+    "country": "Tunisia"
   },
   {
     "markerOffset": -25,
     "name": "Incheon",
     "coordinates": [126.4512, 37.4563],
+    "country": "South Korea",
     "type": "layover"
   },
   {
     "markerOffset": -25,
     "name": "Narita",
     "coordinates": [140.3864, 35.7734],
+    "country": "Japan",
     "type": "layover"
   },
   {
     "markerOffset": -25,
     "name": "Muskoka",
-    "coordinates": [-79.3331, 45.0491]
+    "coordinates": [-79.3331, 45.0491],
+    "country": "Canada"
   },
   {
     "markerOffset": -25,
     "name": "Fontainebleau",
     "coordinates": [2.6986, 48.4048],
+    "country": "France",
     "type": "lived"
   },
-  { "markerOffset": -25, "name": "Ajaccio", "coordinates": [8.7386, 41.9192] },
+  {
+    "markerOffset": -25,
+    "name": "Ajaccio",
+    "coordinates": [8.7386, 41.9192],
+    "country": "France"
+  },
   {
     "markerOffset": -25,
     "name": "Bonifacio",
-    "coordinates": [9.1511, 41.1881]
+    "coordinates": [9.1511, 41.1881],
+    "country": "France"
   },
   {
     "markerOffset": -25,
     "name": "Montreal",
-    "coordinates": [-73.5673, 45.5017]
+    "coordinates": [-73.5673, 45.5017],
+    "country": "Canada"
   },
   {
     "markerOffset": -25,
     "name": "San Francisco",
     "coordinates": [-122.4194, 37.7749],
+    "country": "United States",
     "type": "layover"
   },
-  { "markerOffset": -25, "name": "München", "coordinates": [11.5755, 48.1372] },
+  {
+    "markerOffset": -25,
+    "name": "München",
+    "coordinates": [11.5755, 48.1372],
+    "country": "Germany"
+  },
   {
     "markerOffset": -25,
     "name": "Reykjavik",
     "coordinates": [-21.9426, 64.1355],
+    "country": "Iceland",
     "type": "layover"
   },
-  { "markerOffset": -25, "name": "Chamonix", "coordinates": [6.8694, 45.9237] },
+  {
+    "markerOffset": -25,
+    "name": "Chamonix",
+    "coordinates": [6.8694, 45.9237],
+    "country": "France"
+  },
   {
     "markerOffset": -25,
     "name": "Lessard-et-le-Chêne",
-    "coordinates": [0.8587, 49.0145]
+    "coordinates": [0.8587, 49.0145],
+    "country": "France"
   },
-  { "markerOffset": -25, "name": "Cabourg", "coordinates": [-0.122590, 49.285919] }
+  {
+    "markerOffset": -25,
+    "name": "Cabourg",
+    "coordinates": [-0.12259, 49.285919],
+    "country": "France"
+  }
 ]
