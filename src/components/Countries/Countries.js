@@ -54,11 +54,7 @@ export default function Countries(props) {
                     ? "skyblue"
                     : "#EAEAEC"
                 }
-                stroke={
-                  countries.includes(geo.properties.name)
-                    ? "#D6D6DA"
-                    : "#D6D6DA"
-                }
+                stroke="#D6D6DA"
               />
             ))
           }
