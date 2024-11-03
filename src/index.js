@@ -24,7 +24,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
-        <Route path="articles" element={<Blog />} />
+        <Route path="writing" element={<Blog />} />
         <Route index element={<div>Welcome to the blog</div>} />
         {blogsData.map((blog) => (
           <Route
