@@ -23,17 +23,17 @@ ChartJS.register(
 export default function InvestmentPortfolio() {
   const data = {
     labels: [
-      "SSO - 24.44%",
-      "QQQ - 23.45%",
-      "VOO - 15.59%",
-      "TQQQ - 10.78%",
-      "META - 7.99%",
-      "QLD - 6.67%",
-      "SCHD - 4.17%",
-      "TSLA - 3.71%",
-      "UPRO - 1.67%",
-      "ARKK - 0.92%",
-      "CCL - 0.61%",
+      "SSO - 23.44%",
+      "QQQ - 22.65%",
+      "VOO - 15.08%",
+      "TQQQ - 10.55%",
+      "META - 7.42%",
+      "QLD - 6.24%",
+      "SCHD - 4.65%",
+      "TSLA - 3.63%",
+      "UPRO - 1.59%",
+      "ARKK - 0.89%",
+      "CCL - 0.71%",
     ],
     datasets: [
       {
