@@ -66,18 +66,6 @@ export default function Home() {
 
   return (
     <div className="container">
-      <div className="justify-content-center mb-2">
-        {/* <h1 className="mb-2">Welcome to my personal website!</h1> */}
-        {/* <button
-          className="btn btn-primary m-1"
-          onClick={() => {
-            showEasterEgg();
-          }}
-          style={{fontSize: "13px"}}
-        >
-          You're right, it really is ugly!
-        </button> */}
-      </div>
       <div
         className="text-muted"
         id="easterEgg"
