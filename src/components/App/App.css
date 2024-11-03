@@ -19,15 +19,16 @@
 }
 
 .NavLink {
-  color: rgb(185, 185, 185);
+  /* color: rgb(185, 185, 185); */
 }
 
 .NavLink.active {
-  color: black;
+  /* color: black; */
 }
 
 .NavLink:hover {
-  color: black;
+  /* color: black; */
+  text-decoration: underline;
 }
 
 .customNavbarClass {
