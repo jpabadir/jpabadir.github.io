@@ -61,7 +61,6 @@ export default function InvestmentPortfolio() {
 
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
-      <div className="mb-3">Hover for exact percentages</div>
       <Doughnut data={data} className="PieChart" />
     </div>
   );

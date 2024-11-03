@@ -126,7 +126,7 @@ export default function Home() {
         </div> */}
       </div>
       <div className="row" style={{ marginTop: "120px" }}>
-        <h5 style={{ color: "rgb(100,100,100)", fontSize: "13px" }}>
+        <h5 style={{ color: "rgb(100,100,100)", fontSize: "12px" }}>
           If you think my site's ugly, you should check out{" "}
           <a href="https://www.paulgraham.com/" target="_blank" rel="noopener">
             Paul Graham's
