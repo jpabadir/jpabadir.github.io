@@ -18,6 +18,7 @@ export default function Home() {
       name: "Goodreads",
       link: "https://www.goodreads.com/user/show/183330985-jean-philippe-abadir",
     },
+    { name: "Athletics" },
     { name: "Places I've been", link: "places" },
     { name: "Investment Portfolio" },
     // { name: "Newsletter" },
