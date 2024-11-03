@@ -13,7 +13,11 @@ export default function Home() {
     },
     // { name: "Articles" },
     { name: "X", link: "https://twitter.com/jpabadir" },
-    { name: "Books I've read", link: "books-i-read" },
+    // { name: "Books I've read", link: "books-i-read" },
+    {
+      name: "Goodreads",
+      link: "https://www.goodreads.com/user/show/183330985-jean-philippe-abadir",
+    },
     { name: "Places I've been", link: "places" },
     { name: "Investment Portfolio" },
     // { name: "Newsletter" },
@@ -131,7 +135,8 @@ export default function Home() {
           <a href="https://www.paulgraham.com/" target="_blank" rel="noopener">
             Paul Graham's
           </a>
-          . If he can make billions with that, surely I can make millions with this.
+          . If he can make billions with that, surely I can make millions with
+          this.
         </h5>
       </div>
     </div>
