@@ -23,7 +23,7 @@
 }
 
 .NavLink.active {
-  /* color: black; */
+  color: black;
 }
 
 .NavLink:hover {
