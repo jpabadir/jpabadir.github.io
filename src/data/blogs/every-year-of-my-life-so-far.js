@@ -121,7 +121,18 @@ export default function Content() {
         <h2>18 years old</h2>
         <p>content to come</p>
         <h2>19 years old</h2>
-        <p>content to come</p>
+        <p>
+          <ul>
+            <li>
+              Started a software development consultancy with my friend Noah. We
+              printed out business cards, took the bus to the mall, and
+              solicited every business. We found one client and made a web app
+              for them. We made $6K CAD. I was rich. We fucked up and
+              accidentally deleted their database. I decided we should refund
+              them. I was poor again.
+            </li>
+          </ul>
+        </p>
         <h2>20 years old</h2>
         <p>content to come</p>
         <h2>21 years old</h2>
@@ -151,8 +162,8 @@ export default function Content() {
           <ul>
             <li>
               Started writing this blog article. I may not be a genius anymore,
-              but I'm definitely still as self-centered as I was when
-              I was 4. I'm working on it.
+              but I'm definitely still as self-centered as I was when I was 4.
+              I'm working on it.
             </li>
           </ul>
         </p>
