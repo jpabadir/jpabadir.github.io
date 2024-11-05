@@ -1,13 +1,14 @@
 import "./BlogStyles.css";
 
 export default function Content() {
-  const percentageElapsed = Math.floor((24 / 110) * 100);
+  const age = 24;
+  const percentageElapsed = Math.floor((age / 110) * 100);
 
   return (
     <div>
       <hr />
       <div className="mb-4">
-        <h4>Life elapsed: 24 years. I estimate that's {percentageElapsed}% of my life.</h4>
+        <h4>Life elapsed: {age} years. I estimate that's {percentageElapsed}% of my life. I <i>think</i> I'll live to 110?</h4>
         <div
           style={{
             width: "100%",
@@ -98,7 +99,7 @@ export default function Content() {
         <h2>24 years old</h2>
         <p>content to come</p>
         <div style={{ color: "lightgrey" }}>
-          {Array.from({ length: 110 - 25 + 1 }, (_, i) => i + 25).map(
+          {Array.from({ length: 110 - (age + 1) + 1 }, (_, i) => i + (age + 1)).map(
             (year) => (
               <div>
                 <h2>{year} years old - Uncertainty ❔</h2>
