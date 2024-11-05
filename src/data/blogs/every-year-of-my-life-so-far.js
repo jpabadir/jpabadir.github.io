@@ -72,7 +72,7 @@ export default function Content() {
           <ul>
             <li>
               My best friend from elementary school moved to La Réunion. I was
-              devastated
+              devastated.
             </li>
           </ul>
         </p>
