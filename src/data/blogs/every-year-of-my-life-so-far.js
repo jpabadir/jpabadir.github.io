@@ -68,7 +68,14 @@ export default function Content() {
           </li>
         </ul>
         <h2>10 years old</h2>
-        <p>content to come</p>
+        <p>
+          <ul>
+            <li>
+              My best friend from elementary school moved to La Réunion. I was
+              devastated
+            </li>
+          </ul>
+        </p>
         <h2>11 years old</h2>
         <p>content to come</p>
         <h2>12 years old</h2>
@@ -130,7 +137,7 @@ export default function Content() {
               for them. We made $6K CAD. I was rich. We fucked up and
               accidentally deleted their database. I decided we should refund
               them. I was poor again. We closed down the business after this, we
-              had to focus on our studies and internships anyway. 
+              had to focus on our studies and internships anyway.
             </li>
           </ul>
         </p>
