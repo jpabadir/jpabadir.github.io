@@ -17,6 +17,10 @@ export default function Content() {
             balloon. My dad tried to propel it in the air with his arm but it
             didn't work.
           </li>
+          <li>
+            My cousin lent me his iPod and I listened to "The Real Slim Shady"
+            on repeat. The beginning of my love for rap.
+          </li>
         </ul>
       </p>
       <h2>9 years old</h2>
@@ -68,7 +72,7 @@ export default function Content() {
       <p>content to come</p>
       <h2>24 years old</h2>
       <p>content to come</p>
-      <div style={{color: "lightgrey"}}>
+      <div style={{ color: "lightgrey" }}>
         {Array.from({ length: 110 - 25 + 1 }, (_, i) => i + 25).map((year) => (
           <div>
             <h2>{year} years old - Uncertainty ❔</h2>
@@ -76,6 +80,8 @@ export default function Content() {
           </div>
         ))}
       </div>
+      <h2>X years old - the end 🌌</h2>
+      <p>I guess this is it. Goodbye.</p>
     </div>
   );
 }
