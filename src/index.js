@@ -29,7 +29,7 @@ ReactDOM.render(
         {blogsData.map((blog) => (
           <Route
             key={blog.title}
-            path={`articles/${linkify(blog.title)}`}
+            path={`writing/${linkify(blog.title)}`}
             element={<Article blog={blog} />}
           />
         ))}

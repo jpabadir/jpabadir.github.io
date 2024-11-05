@@ -15,7 +15,7 @@ export default function Home() {
       name: "Instagram",
       link: "https://www.instagram.com/jpabadir",
     },
-    // { name: "Writing" },
+    { name: "Writing" },
     { name: "X", link: "https://twitter.com/jpabadir" },
     // { name: "Books I've read", link: "books-i-read" },
     {
