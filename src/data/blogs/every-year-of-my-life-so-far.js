@@ -33,7 +33,15 @@ export default function Content() {
       <hr />
       <div>
         <h2>0-7 year old - the genesis 👶</h2>
-        <p>I don't remember any of this.</p>
+        <p>
+          <ul>
+            <li>
+              I don't remember any of this. Actually yeah, I skipped second year
+              of kindergarten, and I remember that. I was too smart and bored
+              with the other kids. I was a genius. I'm not anymore.
+            </li>
+          </ul>
+        </p>
         <h2>8 years old - engineering 🛠️</h2>
         <p>
           <ul>
@@ -90,12 +98,24 @@ export default function Content() {
             since it allowed me to learn English and move to Canada 3 years
             later. Thanks, mom...
           </li>
+          <li>
+            My friend Ben showed me codecademy. I didn't really "get it", at the
+            time.
+          </li>
         </ul>
         <h2>15 years old</h2>
         <p>content to come</p>
         <p></p>
         <h2>16 years old</h2>
-        <p>content to come</p>
+        <p>
+          <ul>
+            <li>
+              Had extra time and decided to open up codecademy again. This time,
+              I "got it". I was hooked. Python arrays and for loops had nothing
+              on me.
+            </li>
+          </ul>
+        </p>
         <h2>17 years old</h2>
         <p>content to come</p>
         <h2>18 years old</h2>
