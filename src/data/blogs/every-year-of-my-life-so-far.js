@@ -8,7 +8,10 @@ export default function Content() {
     <div>
       <hr />
       <div className="mb-4">
-        <h4>Life elapsed: {age} years. I estimate that's {percentageElapsed}% of my life. I <i>think</i> I'll live to 110?</h4>
+        <h4>
+          Life elapsed: {age} years. I estimate that's {percentageElapsed}% of
+          my life. I <i>think</i> I'll live to 110?
+        </h4>
         <div
           style={{
             width: "100%",
@@ -93,20 +96,37 @@ export default function Content() {
         <h2>21 years old</h2>
         <p>content to come</p>
         <h2>22 years old</h2>
-        <p>content to come</p>
+        <p>
+          <ul>
+            <li>
+              Started working out seriously and really enjoying it. The
+              beginning of a lifelong love for exercise. Focused on losing the
+              few lbs of fat I had, and went from 163 to 154 lbs.
+            </li>
+          </ul>
+        </p>
         <h2>23 years old</h2>
-        <p>content to come</p>
+        <p>
+          <ul>
+            <li>
+              Started lifting weights. Until then, I thought people who lifted
+              were meatheads. I was wrong. Started focusing on gaining muscle
+              and putting on weight. Went from 154 to 176 lbs.
+            </li>
+          </ul>
+        </p>
         <h2>24 years old</h2>
         <p>content to come</p>
         <div style={{ color: "lightgrey" }}>
-          {Array.from({ length: 110 - (age + 1) + 1 }, (_, i) => i + (age + 1)).map(
-            (year) => (
-              <div>
-                <h2>{year} years old - Uncertainty ❔</h2>
-                <p>haven't lived this year yet. I wonder what will happen.</p>
-              </div>
-            )
-          )}
+          {Array.from(
+            { length: 110 - (age + 1) + 1 },
+            (_, i) => i + (age + 1)
+          ).map((year) => (
+            <div>
+              <h2>{year} years old - Uncertainty ❔</h2>
+              <p>haven't lived this year yet. I wonder what will happen.</p>
+            </div>
+          ))}
         </div>
         <h2>X years old - the end 🌌</h2>
         <p>I guess this is it. Goodbye.</p>
