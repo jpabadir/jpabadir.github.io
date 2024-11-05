@@ -36,7 +36,7 @@ export default function Content() {
         <p>
           <ul>
             <li>
-              I don't remember any of this. Actually yeah, I skipped second year
+              I don't remember any of this. Actually yeah, I skipped the second year
               of kindergarten, and I remember that. I was too smart and bored
               with the other kids. I was a genius. I'm not anymore.
             </li>
