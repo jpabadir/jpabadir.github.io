@@ -151,7 +151,7 @@ export default function Content() {
           <ul>
             <li>
               Started writing this blog article. I may not be a genius anymore,
-              but I'm definitely still as cocky and self-centered as I was when
+              but I'm definitely still as self-centered as I was when
               I was 4. I'm working on it.
             </li>
           </ul>
