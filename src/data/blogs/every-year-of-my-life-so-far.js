@@ -80,9 +80,20 @@ export default function Content() {
             songs and I realized "this is not that hard!" so I started playing
             too. He stopped, I continued.
           </li>
+          <li>
+            My mom forced me to go to my high school's pre-orientation meeting.
+            I fought her on it but she won. I ended up listening to a talk by
+            the principal of the private native English-speaking section of the
+            school who was encouraging people to apply even if they weren't sure
+            they could get in. I thought "I'm not sure I can get in" and
+            applied. I got in. This significantly changed the course of my life,
+            since it allowed me to learn English and move to Canada 3 years
+            later. Thanks, mom...
+          </li>
         </ul>
         <h2>15 years old</h2>
         <p>content to come</p>
+        <p></p>
         <h2>16 years old</h2>
         <p>content to come</p>
         <h2>17 years old</h2>
