@@ -36,9 +36,9 @@ export default function Content() {
         <p>
           <ul>
             <li>
-              I don't remember any of this. Actually yeah, I skipped the second year
-              of kindergarten, and I remember that. I was too smart and bored
-              with the other kids. I was a genius. I'm not anymore.
+              I don't remember any of this. Actually yeah, I skipped the second
+              year of kindergarten, and I remember that. I was too smart and
+              bored with the other kids. I was a genius. I'm not anymore.
             </li>
           </ul>
         </p>
@@ -147,7 +147,15 @@ export default function Content() {
           </ul>
         </p>
         <h2>24 years old</h2>
-        <p>content to come</p>
+        <p>
+          <ul>
+            <li>
+              Started writing this blog article. I may not be a genius anymore,
+              but I'm definitely still as cocky and self-centered as I was when
+              I was 4. I'm working on it.
+            </li>
+          </ul>
+        </p>
         <div style={{ color: "lightgrey" }}>
           {Array.from(
             { length: 110 - (age + 1) + 1 },
