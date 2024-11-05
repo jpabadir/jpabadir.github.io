@@ -32,7 +32,7 @@ export default function Content() {
       </div>
       <hr />
       <div>
-        <h2>0-7 year old - the genesis 👶</h2>
+        <h2>0-7 year old - genesis 👶</h2>
         <p>
           <ul>
             <li>
