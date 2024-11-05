@@ -129,7 +129,8 @@ export default function Content() {
               solicited every business. We found one client and made a web app
               for them. We made $6K CAD. I was rich. We fucked up and
               accidentally deleted their database. I decided we should refund
-              them. I was poor again.
+              them. I was poor again. We closed down the business after this, we
+              had to focus on other things anyway.
             </li>
           </ul>
         </p>
