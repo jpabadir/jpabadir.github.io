@@ -68,6 +68,14 @@ export default function Content() {
       <p>content to come</p>
       <h2>24 years old</h2>
       <p>content to come</p>
+      <div style={{color: "lightgrey"}}>
+        {Array.from({ length: 110 - 25 + 1 }, (_, i) => i + 25).map((year) => (
+          <div>
+            <h2>{year} years old - Uncertainty ❔</h2>
+            <p>haven't lived this year yet. I wonder what will happen.</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
