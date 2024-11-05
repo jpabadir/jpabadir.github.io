@@ -17,10 +17,13 @@ export default function Home() {
     },
     { name: "Writing" },
     { name: "X", link: "https://twitter.com/jpabadir" },
-    // { name: "Books I've read", link: "books-i-read" },
     {
       name: "Goodreads",
       link: "https://www.goodreads.com/user/show/183330985-jean-philippe-abadir",
+    },
+    {
+      name: "Genius",
+      link: "https://genius.com/HipHopWorldwide",
     },
     { name: "Athletics" },
     { name: "Places I've been", link: "places" },
