@@ -24,6 +24,8 @@
 
 .NavLink.active {
   color: black;
+  text-decoration: none !important;
+  cursor: default;
 }
 
 .NavLink:hover {
