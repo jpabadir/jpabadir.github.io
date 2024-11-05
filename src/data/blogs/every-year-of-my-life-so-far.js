@@ -130,7 +130,7 @@ export default function Content() {
               for them. We made $6K CAD. I was rich. We fucked up and
               accidentally deleted their database. I decided we should refund
               them. I was poor again. We closed down the business after this, we
-              had to focus on other things anyway.
+              had to focus on our studies and internships anyway. 
             </li>
           </ul>
         </p>
