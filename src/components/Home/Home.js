@@ -26,7 +26,7 @@ export default function Home() {
       link: "https://genius.com/HipHopWorldwide",
     },
     { name: "Athletics" },
-    { name: "Places I've been", link: "places" },
+    { name: "Nomad List", link: "https://nomads.com/@jpabadir" },
     { name: "Investment Portfolio" },
     // { name: "Newsletter" },
     { name: "AI Art" },
