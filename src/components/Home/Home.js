@@ -16,6 +16,7 @@ export default function Home() {
       link: "https://www.instagram.com/jpabadir",
     },
     { name: "Writing" },
+    { name: "All the stuff I launched" },
     { name: "X", link: "https://twitter.com/jpabadir" },
     {
       name: "Goodreads",
@@ -30,7 +31,6 @@ export default function Home() {
     { name: "Investment Portfolio" },
     // { name: "Newsletter" },
     { name: "AI Art" },
-    // { name: "All the stuff I launched" },
     { name: "What I'm listening to", link: "what-im-listening-to" },
     { name: "GitHub", link: "https://github.com/jpabadir" },
     // { name: "The Brag Doc" },
