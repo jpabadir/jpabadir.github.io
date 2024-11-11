@@ -15,6 +15,11 @@ export default function AllTheStuffILaunched() {
         "Ran Facebook ads, sold a bunch one-shot to a woman, earned $100 CAD commission, couldn't make another sale.",
     },
     {
+      dates: "2018 - 2020",
+      project: "Started Jean-Philippe Abadir Computer Science Tutoring.",
+      outcome: "Earned around 2K CAD tutoring for CS in university.",
+    },
+    {
       dates: "Summer 2019",
       project:
         "Started a software development consultancy called Antimatter with my friend.",
