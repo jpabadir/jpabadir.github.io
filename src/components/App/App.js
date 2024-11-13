@@ -11,7 +11,7 @@ function App() {
           Home
         </NavLink>
       </div>
-      <div className="d-flex justify-content-center container-neon">
+      <div className="d-flex justify-content-center">
         <div className="Content" id="Content">
           <Outlet />
         </div>
