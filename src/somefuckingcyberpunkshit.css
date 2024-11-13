@@ -98,7 +98,6 @@ body {
 
 /* Neon flickering effect */
 .flicker {
-  color: #4deeea;
   animation: flicker 2s infinite alternate;
 }
 

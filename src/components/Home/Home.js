@@ -30,7 +30,7 @@ export default function Home() {
     { name: "Nomad List", link: "https://nomads.com/@jpabadir" },
     { name: "Investment Portfolio" },
     // { name: "Newsletter" },
-    { name: "AI Art" },
+    // { name: "AI Art" },
     { name: "What I'm listening to", link: "what-im-listening-to" },
     { name: "GitHub", link: "https://github.com/jpabadir" },
     // { name: "The Brag Doc" },

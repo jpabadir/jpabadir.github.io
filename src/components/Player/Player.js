@@ -25,7 +25,8 @@ const Player = ({ url }) => {
 
   return (
     <div>
-      <button onClick={toggle}>{playing ? "Pause" : "Play"}</button>
+      <button className="btn-neon" onClick={toggle}>{playing ? "Pause music" : "Play music"}</button>
+      <div className=" flicker">fdsadfs</div>
     </div>
   );
 };

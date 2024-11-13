@@ -21,7 +21,6 @@ function App() {
   return (
     <div className="App">
       <div className="customNavbarClass">
-        <Player url="/assets/highseason.mp3" />
         {navItems.map((item) => {
           return item.link && item.link.includes("https") ? (
             // eslint-disable-next-line react/jsx-no-target-blank
@@ -51,7 +50,7 @@ function App() {
           <Outlet />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Player url="/assets/highseason.mp3" />
     </div>
   );
 }
