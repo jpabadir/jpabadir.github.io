@@ -3,6 +3,7 @@ import "./App.css";
 import { Outlet, NavLink } from "react-router-dom";
 import { linkify } from "../../helpers";
 import Footer from "../Footer/Footer";
+import Player from "../Player/Player";
 
 function App() {
   const navItems = [
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <div className="customNavbarClass">
+        <Player url="/assets/highseason.mp3" />
         {navItems.map((item) => {
           return item.link && item.link.includes("https") ? (
             // eslint-disable-next-line react/jsx-no-target-blank
