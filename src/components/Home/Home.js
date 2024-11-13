@@ -2,6 +2,7 @@ import { useLayoutEffect, useState } from "react";
 import "./Home.css";
 import { Outlet, NavLink } from "react-router-dom";
 import { linkify } from "../../helpers";
+import { link } from "d3";
 
 export default function Home() {
   const navItems = [
@@ -30,7 +31,10 @@ export default function Home() {
     { name: "Nomad List", link: "https://nomads.com/@jpabadir" },
     { name: "Investment Portfolio" },
     // { name: "Newsletter" },
-    // { name: "AI Art" },
+    {
+      name: "Some Cyberpunk Inspo",
+      link: "https://jpabadir.com/assets/ai-art-inspo.webp",
+    },
     { name: "What I'm listening to", link: "what-im-listening-to" },
     { name: "GitHub", link: "https://github.com/jpabadir" },
     // { name: "The Brag Doc" },

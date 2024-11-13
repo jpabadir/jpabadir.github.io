@@ -29,7 +29,7 @@ export default function AllTheStuffILaunched() {
       dates: "2021-ongoing",
       project:
         "Started another software development consultancy called North P&D, alone this time.",
-      outcome: "Grew to 220K CAD in revenue in 2024, still growing.",
+      outcome: "Grew to 220K CAD in revenue in 2024. Still growing, goal is 1M CAD revenue per year.",
     },
   ];
 
