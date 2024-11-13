@@ -1,14 +1,42 @@
-import './Footer.css';
+import React, { useState, useEffect } from "react";
 
-export default function Footer() {
+const useAudio = (url) => {
+  const [audio] = useState(new Audio(url));
+  const [playing, setPlaying] = useState(false);
+
+  const toggle = () => setPlaying(!playing);
+
+  useEffect(() => {
+    playing ? audio.play() : audio.pause();
+  }, [playing]);
+
+  useEffect(() => {
+    audio.addEventListener("ended", () => setPlaying(false));
+    return () => {
+      audio.removeEventListener("ended", () => setPlaying(false));
+    };
+  }, []);
+
+  return [playing, toggle];
+};
+
+const Footer = ({ url }) => {
+  const [playing, toggle] = useAudio(url);
+
   return (
-    <div className="row SocialMediaLinks">
-      <a target="_blank" rel="noreferrer" href="https://twitter.com/jpabadir" className="Link BlogLink col">
-        Twitter
-      </a>
-      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/jpabadir" className="Link BlogLink col">
-        Instagram
-      </a>
+    <div>
+      <button className="btn-neon mb-4" onClick={toggle}>
+        {playing ? "Pause music" : "Play music"}
+      </button>
+      {
+        <div style={{ opacity: playing ? 1 : 0, transition: "200ms" }}>
+          <div className="neon-text flicker" style={{ fontSize: "16px" }}>
+            NOW PLAYING: TIGGI HAWKE - HIGH SEASON
+          </div>
+        </div>
+      }
     </div>
   );
-}
+};
+
+export default Footer;

@@ -17,7 +17,7 @@ export default function Blog() {
           // <div key={blog.title} onMouseEnter={blog.image && toggleScaleThumbnail} onMouseLeave={blog.image && toggleScaleThumbnail}>
           <div key={blog.title}>
             <NavLink
-              className="Link BlogLink container my-2"
+              className="Link NavLink container my-2"
               to={blog.title.replace(/\s+/g, "-").toLowerCase()}
             >
               <div className="row justify-content-center">

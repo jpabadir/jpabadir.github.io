@@ -23,7 +23,7 @@ body {
 .btn-neon {
   padding: 10px 20px;
   color: #fff;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: bold;
   background: linear-gradient(45deg, #ff6ec7, #4deeea);
   border: 2px solid #ff6ec7;
@@ -42,7 +42,7 @@ body {
 
 /* Pulsing neon text */
 .neon-text {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bold;
   text-shadow: 0 0 8px #ff6ec7, 0 0 16px #ff6ec7, 0 0 32px #4deeea;
   animation: pulse 2s infinite;
@@ -80,8 +80,8 @@ body {
 
 /* Glowing text animation */
 .text-glow {
+  font-size: 20px;
   color: #ffffff;
-  font-size: 24px;
   font-weight: bold;
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ff6ec7, 0 0 20px #4deeea;
   animation: glow 1.5s ease-in-out infinite alternate;

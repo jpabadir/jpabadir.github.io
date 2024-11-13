@@ -6,12 +6,13 @@
 }
 
 .Content {
-  padding: 50px 10px;
-  min-height: 60vh;
-  width: 1200px;
+  /* padding: 50px 10px; */
+  /* min-height: 60vh; */
+  /* width: 1200px; */
 }
 
 .Link {
+  color: #ffcbeb;
   display: inline-block;
   padding: 5px 10px;
   text-decoration: none;
@@ -20,18 +21,25 @@
 }
 
 .NavLink {
+  color: #ffcbeb;
   /* color: rgb(185, 185, 185); */
 }
 
 .NavLink.active {
-  color: black;
+  color: white;
+  text-decoration: none !important;
+  cursor: default;
+}
+
+.NavLink.active:hover {
+  color: white;
   text-decoration: none !important;
   cursor: default;
 }
 
 .NavLink:hover {
-  /* color: black; */
-  text-decoration: underline;
+  color: #ff6ec7;
+  text-decoration: none;
 }
 
 .customNavbarClass {
@@ -53,4 +61,15 @@ tr:nth-child(odd) {
   text-align: center;
   margin: 5px;
   font-size: 15px;
+}
+
+.footer {
+  margin-top: 50px;
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px; */
 }

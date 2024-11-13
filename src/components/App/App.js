@@ -1,56 +1,24 @@
 import React from "react";
 import "./App.css";
 import { Outlet, NavLink } from "react-router-dom";
-import { linkify } from "../../helpers";
 import Footer from "../Footer/Footer";
-import Player from "../Player/Player";
 
 function App() {
-  const navItems = [
-    { name: "Home", link: "/" },
-    // { name: 'YouTube', link: 'https://www.youtube.com/channel/UCliwHW2THGTsKwNvNcF_Nlw' },
-    // { name: 'Articles' },
-    // { name: "Books I've read", link: 'books-i-read' },
-    // { name: "Countries I've been to", link: 'countries' },
-    // { name: 'Investment Portfolio' },
-    // { name: 'Newsletter' },
-    // { name: 'AI Art' },
-    // { name: 'All the stuff I launched' },
-    // { name: "What I'm listening to" },
-  ];
   return (
-    <div className="App">
+    <div className="App mx-3">
       <div className="customNavbarClass">
-        {navItems.map((item) => {
-          return item.link && item.link.includes("https") ? (
-            // eslint-disable-next-line react/jsx-no-target-blank
-            <a
-              key={item.name}
-              target="_blank"
-              rel="noopener"
-              className=""
-              href={item.link}
-            >
-              {item.name}
-            </a>
-          ) : (
-            <NavLink
-              key={item.name}
-              to={item.link ? item.link : linkify(item.name)}
-              className="Link NavLink"
-            >
-              {item.name}
-            </NavLink>
-          );
-        })}
-        <hr />
+        <NavLink to="/" className="Link NavLink neon-text">
+          Home
+        </NavLink>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center container-neon">
         <div className="Content" id="Content">
           <Outlet />
         </div>
       </div>
-      <Player url="/assets/highseason.mp3" />
+      <div className="footer">
+        <Footer url="/assets/highseason.mp3" />
+      </div>
     </div>
   );
 }

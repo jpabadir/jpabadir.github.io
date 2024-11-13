@@ -41,46 +41,8 @@ export default function Home() {
     },
   ];
 
-  const [clickCount, setClickCount] = useState(0);
-
-  function showEasterEgg() {
-    document.getElementById("easterEgg").style.opacity = 1;
-    setTimeout(hideEasterEgg, 1000);
-  }
-
-  function hideEasterEgg() {
-    if (!document.getElementById("easterEgg")) return;
-    if (clickCount < 9) {
-      document.getElementById("easterEgg").style.opacity = 0;
-    }
-    if (clickCount == 0) {
-      setClickCount((clickCount) => clickCount + 1);
-    } else {
-      setTimeout(() => setClickCount((clickCount) => clickCount * 2), 1000);
-    }
-  }
-
-  var renderStuff;
-  if (clickCount == 0) {
-    renderStuff = (
-      <div>
-        Well, how about you show me your personal website? Is it better? Yeah,
-        didn't think so.
-      </div>
-    );
-  } else {
-    renderStuff = <div>{new Array(clickCount).fill("🖕")}</div>;
-  }
-
   return (
     <div className="container">
-      <div
-        className="text-muted"
-        id="easterEgg"
-        style={{ transition: "500ms", opacity: 0 }}
-      >
-        {renderStuff}
-      </div>
       <div className="row">
         <div className="col">
           {navItems.map((item) => {
@@ -91,7 +53,7 @@ export default function Home() {
                     key={item.name}
                     target="_blank"
                     rel="noopener"
-                    className="text-glow"
+                    className={`Link NavLink text-glow`}
                     href={item.link}
                   >
                     {item.name}
@@ -100,7 +62,7 @@ export default function Home() {
                   <NavLink
                     key={item.name}
                     to={item.link ? item.link : linkify(item.name)}
-                    className="text-glow"
+                    className={`Link NavLink text-glow`}
                   >
                     {item.name}
                   </NavLink>
