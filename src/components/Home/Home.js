@@ -91,7 +91,7 @@ export default function Home() {
                     key={item.name}
                     target="_blank"
                     rel="noopener"
-                    className="Link NavLink"
+                    className="text-glow"
                     href={item.link}
                   >
                     {item.name}
@@ -100,7 +100,7 @@ export default function Home() {
                   <NavLink
                     key={item.name}
                     to={item.link ? item.link : linkify(item.name)}
-                    className="Link NavLink"
+                    className="text-glow"
                   >
                     {item.name}
                   </NavLink>
@@ -108,32 +108,7 @@ export default function Home() {
               </div>
             );
           })}
-          {/* <iframe
-            width="100%"
-            height={videoHeight}
-            src="https://www.youtube-nocookie.com/embed/f-lWdbBqrXk?controls=1"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            id="myVideo"
-            className="StaticShadow"
-          /> */}
         </div>
-        {/* <div className="text-muted mt-5">
-          Somewhere on this website, there's a neat little demonstration of
-          compound interest. Can you find it?
-        </div> */}
-      </div>
-      <div className="row" style={{ marginTop: "120px" }}>
-        <h5 style={{ color: "rgb(100,100,100)", fontSize: "12px" }}>
-          If you think my site's ugly, you should check out{" "}
-          <a href="https://www.paulgraham.com/" target="_blank" rel="noopener">
-            Paul Graham's
-          </a>
-          . If he can make billions with that, surely I can make millions with
-          this.
-        </h5>
       </div>
     </div>
   );

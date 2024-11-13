@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+
 import App from "./components/App/App";
 import Home from "./components/Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,6 +19,7 @@ import AllTheStuffILaunched from "./components/AllTheStuffILaunched/AllTheStuffI
 import WhatImListeningTo from "./components/WhatImListeningTo/WhatImListeningTo";
 import TheBragDoc from "./components/TheBragDoc/TheBragDoc";
 import Athletics from "./components/Athletics/Athletics";
+import "./somefuckingcyberpunkshit.css";
 
 ReactDOM.render(
   <BrowserRouter>

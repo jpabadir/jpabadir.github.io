@@ -27,7 +27,7 @@ function App() {
               key={item.name}
               target="_blank"
               rel="noopener"
-              className="Link NavLink"
+              className=""
               href={item.link}
             >
               {item.name}

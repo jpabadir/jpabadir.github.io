@@ -1,0 +1,138 @@
+/* Cyberpunk Neon Theme */
+
+body {
+  background-color: #1b1b2f;
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* Container for neon borders */
+.container-neon {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  background: rgba(27, 27, 47, 0.85);
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #ff6ec7, #4deeea) 1;
+  box-shadow: 0 0 20px #ff6ec7, 0 0 30px #4deeea;
+}
+
+/* Cyberpunk Button with Neon Effect */
+.btn-neon {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff6ec7, #4deeea);
+  border: 2px solid #ff6ec7;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff6ec7, 0 0 20px #4deeea;
+}
+
+.btn-neon:hover {
+  color: #4deeea;
+  background: linear-gradient(45deg, #ff6ec7, #1b1b2f);
+  box-shadow: 0 0 30px #ff6ec7, 0 0 40px #4deeea;
+}
+
+/* Pulsing neon text */
+.neon-text {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 0 0 8px #ff6ec7, 0 0 16px #ff6ec7, 0 0 32px #4deeea;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    text-shadow: 0 0 8px #ff6ec7, 0 0 16px #ff6ec7, 0 0 32px #4deeea;
+  }
+  50% {
+    text-shadow: 0 0 16px #ff6ec7, 0 0 32px #4deeea, 0 0 48px #ff6ec7;
+  }
+}
+
+/* Background with animated gradient */
+.bg-animated {
+  background: linear-gradient(-45deg, #ff6ec7, #4deeea, #8d4de8, #4deea8);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glowing text animation */
+.text-glow {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ff6ec7, 0 0 20px #4deeea;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ff6ec7, 0 0 20px #4deeea;
+  }
+  to {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ff6ec7, 0 0 40px #4deeea;
+  }
+}
+
+/* Neon flickering effect */
+.flicker {
+  color: #4deeea;
+  animation: flicker 2s infinite alternate;
+}
+
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 1;
+  }
+  20%,
+  22%,
+  24%,
+  55% {
+    opacity: 0.4;
+  }
+}
+
+/* Slow, eerie neon fade */
+.neon-fade {
+  color: #ff6ec7;
+  animation: neonFade 3s infinite;
+}
+
+@keyframes neonFade {
+  0%,
+  100% {
+    text-shadow: 0 0 10px #ff6ec7, 0 0 20px #ff6ec7, 0 0 30px #4deeea;
+  }
+  50% {
+    text-shadow: 0 0 5px #ff6ec7, 0 0 10px #4deeea, 0 0 15px #ff6ec7;
+  }
+}

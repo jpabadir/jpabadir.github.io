@@ -39,12 +39,12 @@
   padding: 10px 0px;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
   background: #cacaca;
 }
 tr:nth-child(odd) {
   background: #fff;
-}
+} */
 
 .pill {
   border: 1px solid;
