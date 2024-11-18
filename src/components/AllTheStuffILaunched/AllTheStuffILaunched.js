@@ -23,13 +23,15 @@ export default function AllTheStuffILaunched() {
       dates: "Summer 2019",
       project:
         "Started a software development consultancy called Antimatter with my friend.",
-      outcome: "Lost around CAD $2K",
+      outcome:
+        "Went door-to-door to find a client. Ended up losing around CAD $2K. Don't ask me how you can lose money on a consulting business. It can be done, and I did it.",
     },
     {
       dates: "2021-ongoing",
       project:
         "Started another software development consultancy called North P&D, alone this time.",
-      outcome: "Grew to 220K CAD in revenue in 2024. Still growing, goal is 1M CAD revenue per year.",
+      outcome:
+        "Grew to 220K CAD in revenue in 2024. Still growing, goal is 1M CAD revenue per year.",
     },
   ];
 
