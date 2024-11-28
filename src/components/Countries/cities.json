@@ -258,11 +258,5 @@
     "name": "Brussels",
     "coordinates": [4.3517, 50.8503],
     "country": "Belgium"
-  },
-  {
-    "markerOffset": -25,
-    "name": "Lanzarote",
-    "coordinates": [-13.589973, 29.046854],
-    "country": "Spain"
   }
 ]
