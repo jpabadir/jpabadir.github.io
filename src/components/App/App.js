@@ -6,7 +6,8 @@ import Footer from "../Footer/Footer";
 function App() {
   return (
     <div className="App mx-3">
-      <div className="customNavbarClass">
+      building something else here
+      {/* <div className="customNavbarClass">
         <NavLink to="/" className="Link NavLink neon-text">
           Home
         </NavLink>
@@ -18,7 +19,7 @@ function App() {
       </div>
       <div className="footer">
         <Footer url="/assets/highseason.mp3" />
-      </div>
+      </div> */}
     </div>
   );
 }
